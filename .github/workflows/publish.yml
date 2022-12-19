@@ -41,6 +41,10 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: '16.x'
+      - name: Build
+        run: |
+          yarn install
+          yarn build
       - name: Setup Pages
         uses: actions/configure-pages@v2
       - name: Upload artifact
