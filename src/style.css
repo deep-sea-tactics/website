@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #f1f1f1;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    max-width: 100%;
+    
+}
+
+.margin {
+    margin: 1rem;
+}
+
+#carousel {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 0.2s;
+    background-image: url("images/1.jpg");
+}
+
+#calendar {
+    /* set the calendar to be a reasonable max width */
+    max-width: 100%;
+    list-style-type: none;
+    margin-right: 1rem;
+    text-align: center;
+    padding: 0;
+    margin-right: 30px;
+}
+
+.cal-item {
+    /* design them to be like cards, not too tall */
+    height: 3rem;
+    /* make them look like cards */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    margin: 15px;
+}
