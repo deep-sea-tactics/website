@@ -1,8 +1,16 @@
-function startCarousel() {
-    let currentImage = 1;
+$(document).ready(function() {
+    var currentSlide = 0;
+    var slides = $('.slide');
+    var numSlides = slides.length;
+  
+    function showSlide(n) {
+      slides.fadeOut(1000);
+      slides.eq(n).fadeIn(1000);
+    }
+  
     setInterval(function() {
-        $("#carousel").css("background-image", "url('images/" + currentImage + ".jpg')");
-        currentImage++;
-        if (currentImage === 17) currentImage = 1;
-    }, 4000);
-};
+      currentSlide = (currentSlide + 1) % numSlides;
+      showSlide(currentSlide);
+    }, 5000);
+  });
+  
