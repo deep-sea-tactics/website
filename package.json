@@ -6,5 +6,8 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url=./"
+  },
+  "devDependencies": {
+    "sharp": "^0.31.1"
   }
 }
