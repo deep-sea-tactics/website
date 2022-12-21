@@ -1,16 +1,21 @@
-$(document).ready(function() {
-    var currentSlide = 0;
-    var slides = $('.slide');
-    var numSlides = slides.length;
+import $ from "jquery"
+
+document.addEventListener('DOMContentLoaded', () => {
+    let currentSlide = 0;
+    const slides = $('.slide');
+    const numSlides = slides.length;
   
     function showSlide(n) {
       slides.fadeOut(1000);
       slides.eq(n).fadeIn(1000);
     }
-  
-    setInterval(function() {
+
+    function cycleSlides() {
       currentSlide = (currentSlide + 1) % numSlides;
       showSlide(currentSlide);
-    }, 5000);
+    }
+  
+    setInterval(cycleSlides, 5000);
+    cycleSlides()
   });
   

@@ -1,6 +1,8 @@
 {
   "private": true,
+  "browserslist": "> 0.5%, last 2 versions, not dead",
   "dependencies": {
+    "jquery": "^3.6.3",
     "parcel": "^2.8.2"
   },
   "scripts": {
