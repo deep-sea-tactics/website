@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const numSlides = slides.length;
   
     function showSlide(n) {
-      slides.fadeOut(1000);
-      slides.eq(n).fadeIn(1000);
+      slides.fadeOut(400);
+      slides.eq(n).fadeIn(400);
     }
 
     function cycleSlides() {

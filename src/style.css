@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 100%;
+    max-width: 100%;
 }
   
 .column {
@@ -31,24 +31,23 @@ body {
 
 .carousel {
     height: 100vh;
+    width: 50%;
     overflow: hidden;
     /* code below stops the image from stretching when it is forced to be really wide */
     background-size: contain;
   }
   
-.slide {
-  width: 100%;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  display: none;
-}
+  .slide {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #ffffff; /* fallback color */
+    display: none;
+  }
   
-.slide img {
-  width: 100%;
-  height: 100%;
-}  
-
 #calendar {
     /* set the calendar to be a reasonable max width */
     max-width: 100%;
@@ -71,4 +70,10 @@ body {
 
 a {
     background-color: #b3b3b3;
+}
+
+@media only screen and (max-width: 600px) {
+    .carousel {
+        width: 100%;
+    }
 }
