@@ -59,17 +59,20 @@ body {
 }
 
 .cal-item {
-    /* design them to be like cards, not too tall */
-    height: 3rem;
+    display: block;
+    padding: 1rem;
     /* make them look like cards */
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 100%;
+    width: calc(100% - 2rem);
     margin: 15px;
 }
 
 a {
     background-color: #b3b3b3;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
 }
 
 @media only screen and (max-width: 600px) {
