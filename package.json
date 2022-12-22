@@ -7,9 +7,11 @@
   },
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url=./"
+    "build": "parcel build src/index.html --public-url=./",
+    "format": "prettier --write ."
   },
   "devDependencies": {
+    "prettier": "2.8.1",
     "sharp": "^0.31.1"
   }
 }
