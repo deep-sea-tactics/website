@@ -5,6 +5,33 @@ body {
   background: #f1f1f1;
 }
 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header nav ul li {
+  margin-right: 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .center-text {
   text-align: center;
 }
@@ -43,8 +70,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color: #ffffff; /* fallback color */
+  background-color:   #ffffff; /* fallback color */
   display: none;
+  position: relative;
 }
 
 #calendar {
@@ -55,6 +83,7 @@ body {
   text-align: center;
   padding: 0;
   margin-right: 30px;
+  margin-top: 0;
 }
 
 .cal-item {
@@ -65,17 +94,46 @@ body {
   border-radius: 5px;
   width: calc(100% - 2rem);
   margin: 15px;
+  margin-top: 5px;
 }
 
 a {
-  background-color: #b3b3b3;
   padding: 1rem 2rem;
-  border-radius: 1rem;
-  text-decoration: none;
+}
+
+#about {
+  width: 75%;
+}
+
+#team h2,
+#sponsors h2 {
+  text-align: center;
+}
+
+#team ul,
+#sponsors ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#team li,
+#sponsors li {
+  margin: 1rem;
+  text-align: center;
+}
+
+#team img,
+#sponsors img {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 600px) {
   .carousel {
     width: 100%;
   }
+}
+
+.left {
+  margin-left: 1rem;
 }
