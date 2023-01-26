@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const slides = $(".slide");
   const numSlides = slides.length;
 
-  function showSlide(n) {
+  function showSlide(n: number) {
     slides.fadeOut(400);
     slides.eq(n).fadeIn(400);
   }
