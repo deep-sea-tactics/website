@@ -31,10 +31,31 @@
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
-        font-size: 40px;
+        font-size: calc(1.5vw + 1.5vh + 0.5vmin);
         line-height: 150.19%;
         margin-bottom: 0px;
         margin-top: 0px;
+    }
+
+    /* become horizontal on mobile */
+    @media screen and (max-width: 855px) {
+        .list {
+            flex-direction: column;
+            height: auto;
+            padding: 1em;
+            margin-right: 0;
+        }
+
+        .key {
+            border-right: none;
+            padding: 1em;
+        }
+
+        .value {
+            border-left: none;
+            border-top: 2.55px solid #f2f2f2;
+            padding: 1em;
+        }
     }
 </style>
 <script lang="ts">

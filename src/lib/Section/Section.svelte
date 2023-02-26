@@ -26,6 +26,7 @@
         margin-left: 0px;
         margin-top: 20px;
         height: 0.35px;
+        max-width: 80vw;
     }
 </style>
 <div class="section" style="background-color: {backgroundColor}; color: {color}">
