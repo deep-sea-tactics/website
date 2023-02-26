@@ -8,7 +8,7 @@
         display: flex;
     }
 
-    .jumbotron h1 {
+    .jumbotron h2 {
         font-family: 'Roboto';
         color: white;
         font-weight: 600;
@@ -28,7 +28,7 @@
             height: 300px;
         }
 
-        .jumbotron h1 {
+        .jumbotron h2 {
             font-size: 24px;
             line-height: 28px;
             top: 40px;
@@ -37,5 +37,5 @@
     }
 </style>
 <div class="jumbotron">
-    <h1>Landstown High School's innovative underwater robotics team.</h1>
+    <h2>Landstown High School's innovative underwater robotics team.</h2>
 </div>
