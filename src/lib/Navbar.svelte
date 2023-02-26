@@ -33,7 +33,7 @@
         margin-right: 16px;
     }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 805px) {
         .navbar {
             flex-direction: column;
             text-align: center;
@@ -50,6 +50,7 @@
             font-size: 18px;
             line-height: 21px;
             margin-top: 16px;
+            text-align: center;
         }
     }
 </style>
