@@ -14,7 +14,7 @@
     }
 
     .links {
-        margin-right: 40px;
+        margin-right: 24px;
         font-size: 24px;
         font-family: 'Bebas Neue';
         font-style: normal;
@@ -29,6 +29,8 @@
     .links a {
         color: inherit;
         text-decoration: inherit;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     @media screen and (max-width: 600px) {
@@ -54,7 +56,6 @@
 <div class="navbar">
     <img src="/images/horizontal_logo.png" alt="Logo" class="logo"/>
     <div class="links">
-        <!-- links on the right -->
         <a href="#about">About</a>
         <a href="#events">Events</a>
         <a href="#donate">Donate</a>
