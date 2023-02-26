@@ -1,0 +1,42 @@
+<style>
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f2f2f2;
+    }
+
+    .logo {
+        width: 463px;
+        height: 121.21px;
+        margin-left: 16px;
+    }
+
+    .links {
+        margin-right: 40px;
+        font-size: 24px;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: 400;
+        line-height: 29px;
+        letter-spacing: 0.27em;
+        color: #000000;
+        text-align: right;
+        text-decoration: none;
+    }
+
+    .links a {
+        color: inherit;
+        text-decoration: inherit;
+    }
+</style>
+<div class="navbar">
+    <img src="/images/horizontal_logo.png" alt="Logo" class="logo"/>
+    <div class="links">
+        <!-- links on the right -->
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#donate">Donate</a>
+    </div>
+</div>
