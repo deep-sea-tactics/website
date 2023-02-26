@@ -30,6 +30,7 @@
 </style>
 <div class="section" style="background-color: {backgroundColor}; color: {color}">
     <h3>{header}</h3>
+    <!-- bug: this doesn't update the color -->
     <hr style="background-color: {color};">
     <slot>
     </slot>
