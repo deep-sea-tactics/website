@@ -22,6 +22,20 @@
         top: 70px;
         left: 39px;
     }
+
+    @media screen and (max-width: 805px) {
+        .jumbotron {
+            height: 300px;
+            margin-top: 1.5rem;
+        }
+
+        .jumbotron h1 {
+            font-size: 24px;
+            line-height: 28px;
+            top: 40px;
+            left: 16px;
+        }
+    }
 </style>
 <div class="jumbotron">
     <h1>Landstown High School's innovative underwater robotics team.</h1>
