@@ -54,7 +54,7 @@
         }
     }
 </style>
-<div class="navbar">
+<div class="navbar" role="navigation">
     <img src="/images/horizontal_logo.png" alt="Logo" class="logo"/>
     <div class="links">
         <a href="#about">About</a>
