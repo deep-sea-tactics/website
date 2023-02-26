@@ -28,19 +28,21 @@
         margin-bottom: 2.5em;
     }
 </style>
-<Section header="Events">
-    <div class="item-wrapper">
-        <Item value="Compete in the regional competition at Old Dominion University.">
-            <div class="date">
-                <h3 class="month">May</h3>
-                <h3 class="day">13th</h3>
-            </div>
-        </Item>
-        <Item value="Compete in the international competition in Longmont, Colorado.">
-            <div class="date">
-                <h3 class="month">June</h3>
-                <h3 class="day">22nd</h3>
-            </div>
-        </Item>
-    </div>
-</Section>
+<div id="events">
+    <Section header="Events">
+        <div class="item-wrapper">
+            <Item value="Compete in the regional competition at Old Dominion University.">
+                <div class="date">
+                    <h3 class="month">May</h3>
+                    <h3 class="day">13th</h3>
+                </div>
+            </Item>
+            <Item value="Compete in the international competition in Longmont, Colorado.">
+                <div class="date">
+                    <h3 class="month">June</h3>
+                    <h3 class="day">22nd</h3>
+                </div>
+            </Item>
+        </div>
+    </Section>
+</div>
