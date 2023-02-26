@@ -30,7 +30,7 @@
 </style>
 <div class="section" style="background-color: {backgroundColor}; color: {color}">
     <h3>{header}</h3>
-    <hr style="background-color: {color}">
+    <hr style="background-color: {color};">
     <slot>
     </slot>
 </div>
