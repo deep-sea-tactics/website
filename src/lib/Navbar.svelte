@@ -8,8 +8,8 @@
     }
 
     .logo {
-        width: 463px;
-        height: 121.21px;
+        width: 380px;
+        height: 121px;
         margin-left: 16px;
     }
 
@@ -29,6 +29,26 @@
     .links a {
         color: inherit;
         text-decoration: inherit;
+    }
+
+    @media screen and (max-width: 600px) {
+        .navbar {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .logo {
+            width: 80%;
+            height: auto;
+            margin: auto;
+        }
+
+        .links {
+            margin: 0;
+            font-size: 18px;
+            line-height: 21px;
+            margin-top: 16px;
+        }
     }
 </style>
 <div class="navbar">
