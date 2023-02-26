@@ -33,6 +33,7 @@
             line-height: 28px;
             top: 40px;
             left: 16px;
+            max-width: 90vw;
         }
     }
 </style>
