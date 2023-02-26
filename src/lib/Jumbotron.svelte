@@ -26,7 +26,6 @@
     @media screen and (max-width: 805px) {
         .jumbotron {
             height: 300px;
-            margin-top: 1.5rem;
         }
 
         .jumbotron h1 {

@@ -37,6 +37,8 @@
         .navbar {
             flex-direction: column;
             text-align: center;
+            padding-bottom: .5em;
+            padding-top: .5em;
         }
 
         .logo {
