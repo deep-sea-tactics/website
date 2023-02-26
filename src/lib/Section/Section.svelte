@@ -18,13 +18,13 @@
         font-size: 48px;
         line-height: 58px;
         margin-bottom: 0px;
+        margin-top: 0px;
     }
 
     .section hr {
         width: 570px;
         margin-left: 0px;
         margin-top: 20px;
-        margin-bottom: 20px;
         height: 0.35px;
     }
 </style>
