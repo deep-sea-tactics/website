@@ -59,14 +59,14 @@
 		margin-top: 0.5em;
 		font-size: 25px;
 		line-height: 150.19%;
-		padding-right: 100px;
+		padding-right: 50px;
 	}
 
 	.right-side {
 		border-left: 5px solid #f2f2f2;
 		padding-left: 50px;
 		width: 100%;
-		margin-top: -7.5em;
+		margin-top: -7.6em;
 		padding-top: 2em;
 		padding-bottom: 2em;
 	}

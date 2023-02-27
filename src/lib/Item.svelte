@@ -46,7 +46,7 @@
 		font-family: "Roboto";
 		font-style: normal;
 		font-weight: 400;
-		font-size: 40px;
+		font-size: 30px;
 		line-height: 150.19%;
 		margin-bottom: 0px;
 		margin-top: 0px;
