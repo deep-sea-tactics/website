@@ -1,5 +1,5 @@
 <style>
-    .list {
+    .wrapper {
         border-radius: 49px;
         min-height: 108px;
         display: flex;
@@ -38,7 +38,7 @@
 
     /* become horizontal on mobile */
     @media screen and (max-width: 1000px) {
-        .list {
+        .wrapper {
             flex-direction: column;
             height: auto;
             padding: 1em;
@@ -62,7 +62,7 @@
     const color = backgroundColor === "#f2f2f2" ? "#2c3289" : "#f2f2f2";
     export let value: string;
 </script>
-<div class="list" style="background-color: {backgroundColor}; --color: {color}">
+<div class="wrapper" style="background-color: {backgroundColor}; --color: {color}">
     <div class="key" style="color: {color};">
         <slot></slot>
     </div>
