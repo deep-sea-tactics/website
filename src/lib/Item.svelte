@@ -58,7 +58,8 @@
 			flex-direction: column;
 			height: auto;
 			padding: 1rem;
-			margin-right: 2rem;
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 		.key {

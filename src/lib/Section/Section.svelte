@@ -21,6 +21,7 @@
 	.section {
 		padding-top: 2rem;
 		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 
 	.section h3 {
@@ -40,4 +41,5 @@
 		height: 0.021875rem;
 		max-width: 80vw;
 	}
+
 </style>
