@@ -55,46 +55,46 @@
 	}
 
 	.left-side {
-		max-width: 570px;
+		max-width: 35.625rem;
 		margin-top: 0.5em;
-		font-size: 25px;
+		font-size: 1.5625rem;
 		line-height: 150.19%;
-		padding-right: 50px;
+		padding-right: 3.125rem;
 	}
 
 	.right-side {
-		border-left: 5px solid #f2f2f2;
-		padding-left: 50px;
+		border-left: 0.3125rem solid #f2f2f2;
+		padding-left: 3.125rem;
 		width: 100%;
-		margin-top: -7.6em;
-		padding-top: 2em;
-		padding-bottom: 2em;
+		margin-top: -7.6rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem;
 	}
 
 	.number h3 {
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: bold;
-		font-size: 64px;
-		line-height: 58px;
-		margin-bottom: 0px;
-		margin-top: 0px;
+		font-size: 4rem;
+		line-height: 3.625rem;
+		margin-bottom: 0rem;
+		margin-top: 0rem;
 	}
 
 	/* become horizontal on mobile */
-	@media screen and (max-width: 1000px) {
+	@media screen and (max-width: 62.5rem) {
 		.wrapper {
 			flex-direction: column;
 		}
 
 		.left-side {
-			padding-right: 0px;
+			padding-right: 0rem;
 		}
 
 		.right-side {
 			border-left: none;
-			padding-left: 0px;
-			margin-top: 0px;
+			padding-left: 0rem;
+			margin-top: 0rem;
 		}
 	}
 </style>
