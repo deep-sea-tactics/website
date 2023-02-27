@@ -53,38 +53,40 @@
         }
     }
 </style>
-<Section header="Donate" backgroundColor="#2C3289">
-    <div class="wrapper">
-        <div class="left-side">
-            <p>Thank you for your interest in supporting Deep Sea Tactics with a monetary donation! Please follow these steps to donate via SchoolCashOnline.</p>
-            <p>If you represent an organization that wishes to sponsor Deep Sea Tactics, please email our team’s faculty mentor, Ty Schwartz, at tyler.swartz@vbschools.com</p>
+<div id="donate">
+    <Section header="Donate" backgroundColor="#2C3289">
+        <div class="wrapper">
+            <div class="left-side">
+                <p>Thank you for your interest in supporting Deep Sea Tactics with a monetary donation! Please follow these steps to donate via SchoolCashOnline.</p>
+                <p>If you represent an organization that wishes to sponsor Deep Sea Tactics, please email our team’s faculty mentor, Ty Schwartz, at tyler.swartz@vbschools.com</p>
+            </div>
+            <div class="right-side">
+                <Item backgroundColor="#f2f2f2" value="To be determined.">
+                    <div class="number">
+                        <h3>1</h3>
+                    </div>
+                </Item>
+                <Item backgroundColor="#f2f2f2" value="To be determined.">
+                    <div class="number">
+                        <h3>2</h3>
+                    </div>
+                </Item>
+                <Item backgroundColor="#f2f2f2" value="To be determined.">
+                    <div class="number">
+                        <h3>3</h3>
+                    </div>
+                </Item>
+                <Item backgroundColor="#f2f2f2" value="To be determined.">
+                    <div class="number">
+                        <h3>4</h3>
+                    </div>
+                </Item>
+                <Item backgroundColor="#f2f2f2" value="To be determined.">
+                    <div class="number">
+                        <h3>5</h3>
+                    </div>
+                </Item>
+            </div>
         </div>
-        <div class="right-side">
-            <Item backgroundColor="#f2f2f2" value="To be determined.">
-                <div class="number">
-                    <h3>1</h3>
-                </div>
-            </Item>
-            <Item backgroundColor="#f2f2f2" value="To be determined.">
-                <div class="number">
-                    <h3>2</h3>
-                </div>
-            </Item>
-            <Item backgroundColor="#f2f2f2" value="To be determined.">
-                <div class="number">
-                    <h3>3</h3>
-                </div>
-            </Item>
-            <Item backgroundColor="#f2f2f2" value="To be determined.">
-                <div class="number">
-                    <h3>4</h3>
-                </div>
-            </Item>
-            <Item backgroundColor="#f2f2f2" value="To be determined.">
-                <div class="number">
-                    <h3>5</h3>
-                </div>
-            </Item>
-        </div>
-    </div>
-</Section>
+    </Section>
+</div>
