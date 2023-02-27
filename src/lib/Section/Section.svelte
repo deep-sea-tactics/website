@@ -1,9 +1,9 @@
 <script lang="ts">
 	export let header: string;
 
-	type BrandColor = '#f2f2f2' | '#2C3289';
-	export let backgroundColor: BrandColor = '#f2f2f2';
-	const color = backgroundColor === '#f2f2f2' ? '000000' : '#f2f2f2';
+	type BrandColor = "#f2f2f2" | "#2C3289";
+	export let backgroundColor: BrandColor = "#f2f2f2";
+	const color = backgroundColor === "#f2f2f2" ? "000000" : "#f2f2f2";
 </script>
 
 <div
@@ -24,7 +24,7 @@
 	}
 
 	.section h3 {
-		font-family: 'Bebas Neue';
+		font-family: "Bebas Neue";
 		font-style: normal;
 		font-weight: 400;
 		font-size: 48px;

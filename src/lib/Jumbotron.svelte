@@ -4,7 +4,7 @@
 
 <style>
 	.jumbotron {
-		background-image: url('/images/jumbotron.png');
+		background-image: url("/images/jumbotron.png");
 		background-size: cover;
 		background-position: center;
 		height: 513px;
@@ -13,7 +13,7 @@
 	}
 
 	.jumbotron h2 {
-		font-family: 'Roboto';
+		font-family: "Roboto";
 		color: white;
 		font-weight: 600;
 		line-height: 60px;

@@ -1,6 +1,6 @@
 <script>
-	import Section from './Section.svelte';
-	import Item from '../Item.svelte';
+	import Section from "./Section.svelte";
+	import Item from "../Item.svelte";
 </script>
 
 <div id="donate">
@@ -51,7 +51,7 @@
 	.wrapper {
 		display: flex;
 		flex-direction: row;
-		font-family: 'Roboto';
+		font-family: "Roboto";
 	}
 
 	.left-side {
@@ -72,7 +72,7 @@
 	}
 
 	.number h3 {
-		font-family: 'Roboto';
+		font-family: "Roboto";
 		font-style: normal;
 		font-weight: bold;
 		font-size: 64px;

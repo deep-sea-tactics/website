@@ -1,5 +1,5 @@
 <script>
-	import Section from './Section.svelte';
+	import Section from "./Section.svelte";
 </script>
 
 <div id="about">
@@ -30,7 +30,7 @@
 
 <style>
 	p {
-		font-family: 'Roboto';
+		font-family: "Roboto";
 		font-style: normal;
 		font-weight: 400;
 		font-size: 25px;

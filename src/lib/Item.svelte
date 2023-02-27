@@ -1,7 +1,7 @@
 <script lang="ts">
-	type BrandColor = '#f2f2f2' | '#2C3289';
-	export let backgroundColor: BrandColor = '#2C3289';
-	const color = backgroundColor === '#f2f2f2' ? '#2c3289' : '#f2f2f2';
+	type BrandColor = "#f2f2f2" | "#2C3289";
+	export let backgroundColor: BrandColor = "#2C3289";
+	const color = backgroundColor === "#f2f2f2" ? "#2c3289" : "#f2f2f2";
 	export let value: string;
 </script>
 
@@ -43,7 +43,7 @@
 	}
 
 	.value h3 {
-		font-family: 'Roboto';
+		font-family: "Roboto";
 		font-style: normal;
 		font-weight: 400;
 		font-size: 40px;
