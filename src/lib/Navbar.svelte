@@ -56,11 +56,11 @@
         }
     }
 </style>
-<div class="navbar" role="navigation">
+<nav class="navbar">
     <img src="/images/horizontal_logo.png" alt="Logo" class="logo"/>
     <div class="links">
         <a href="#about">About</a>
         <a href="#events">Events</a>
         <a href="#donate">Donate</a>
     </div>
-</div>
+</nav>
