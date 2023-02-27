@@ -1,10 +1,6 @@
 name: publish
 
 on:
-  pull_request:
-    branches: [master]
-  push:
-    branches: [master]
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -19,6 +15,20 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Install playwright
+        run: npx playwright install
+
+      - name: Run tests
+        run: yarn test
   gh-release:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
