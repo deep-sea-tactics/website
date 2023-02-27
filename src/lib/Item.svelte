@@ -19,7 +19,7 @@
     }
 
     .value {
-        height: 100%;
+        min-height: inherit;
         display: flex;
         align-items: center;
         padding-left: 2em;
