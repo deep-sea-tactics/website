@@ -37,6 +37,6 @@
         }
     }
 </style>
-<div class="jumbotron">
+<div class="jumbotron" role="banner">
     <h2>Landstown High School's innovative underwater robotics team.</h2>
 </div>
