@@ -29,7 +29,7 @@
         max-width: 80vw;
     }
 </style>
-<div class="section" style="background-color: {backgroundColor}; color: {color}">
+<div class="section" style="background-color: {backgroundColor}; color: {color}" role="region" aria-label="{header}">
     <h3>{header}</h3>
     <hr style="background-color: {color};">
     <slot>
