@@ -23,7 +23,7 @@
         display: flex;
         align-items: center;
         padding-left: 2em;
-        word-break: break-all;
+        word-break: break-word;
     }
 
     .value h3 {
@@ -52,7 +52,8 @@
         .value {
             border-left: none!important;
             border-top: 2.55px solid var(--color);
-            padding: 1em;     
+            padding: 1em;
+            word-break: break-all;  
         }
     }
 </style>
