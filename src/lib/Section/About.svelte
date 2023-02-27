@@ -33,9 +33,9 @@
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 25px;
-		line-height: 150.19%;
-		margin-right: 3rem;
+		font-size: 1.563rem;
+		line-height: 1.5019;
+		margin-right: 0.188rem;
 		margin-bottom: 0;
 	}
 </style>
