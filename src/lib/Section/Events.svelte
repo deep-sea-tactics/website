@@ -1,6 +1,6 @@
 <script>
-	import Section from "./Section.svelte";
-	import Item from "../Item.svelte";
+	import Section from './Section.svelte';
+	import Item from '../Item.svelte';
 </script>
 
 <div id="events">

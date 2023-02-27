@@ -25,7 +25,7 @@
 	.links {
 		margin-right: 24px;
 		font-size: 24px;
-		font-family: "Bebas Neue";
+		font-family: 'Bebas Neue';
 		font-style: normal;
 		font-weight: 400;
 		line-height: 29px;
