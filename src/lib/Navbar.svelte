@@ -1,5 +1,5 @@
 <nav class="navbar">
-	<img src="./images/horizontal_logo.png" alt="Logo" class="logo" />
+	<img src="lhs-underwater-robotics/images/horizontal_logo.png" alt="Deep Sea Tactics Logo" class="logo" />
 	<div class="links">
 		<a href="#about">About</a>
 		<a href="#events">Events</a>
