@@ -29,14 +29,13 @@
 
 	@media screen and (max-width: 50.313rem) {
 		.jumbotron {
-			height: 15rem;
+			height: 18.75rem;
 		}
-
 		.jumbotron h2 {
-			font-size: 1.2rem;
+			font-size: 1.5rem;
 			line-height: 1.75rem;
-			top: 2rem;
-			left: .8rem;
+			top: 2.5rem;
+			left: 1rem;
 			max-width: 90vw;
 		}
 	}
