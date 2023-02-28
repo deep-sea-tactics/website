@@ -66,7 +66,7 @@
 		border-left: 0.25rem solid #f2f2f2;
 		padding-left: 2.5rem;
 		width: 100%;
-		margin-top: -6.08rem;
+		margin-top: -7rem;
 		padding-top: 1.6rem;
 		padding-bottom: 1.6rem;
 	}
