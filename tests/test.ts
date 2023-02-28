@@ -1,8 +1,9 @@
 import { expect, test } from '@playwright/test';
 
-test('index page has navbar', async ({ page }) => {
+test('index page has navbar with image', async ({ page }) => {
 	await page.goto('/');
 	await expect(page.getByRole('navigation')).toBeVisible();
+	await expect(page.getByAltText('Deep Sea Tactics Logo')).toBeVisible();
 });
 
 test('index page has banner with header', async ({ page }) => {
