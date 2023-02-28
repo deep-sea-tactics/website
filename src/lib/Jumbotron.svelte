@@ -16,7 +16,7 @@
 		font-family: 'Roboto';
 		color: white;
 		font-weight: 600;
-		line-height: 3rem;
+		line-height: 3.75rem;
 		font-size: 2.4rem;
 		max-width: 42.750rem;
 		font-style: normal;
@@ -34,7 +34,7 @@
 
 		.jumbotron h2 {
 			font-size: 1.2rem;
-			line-height: 1.4rem;
+			line-height: 1.75rem;
 			top: 2rem;
 			left: .8rem;
 			max-width: 90vw;

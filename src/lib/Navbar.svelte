@@ -28,7 +28,7 @@
 		font-family: 'Bebas Neue';
 		font-style: normal;
 		font-weight: 400;
-		line-height: 1.450rem;
+		line-height: 1.813rem;
 		letter-spacing: 0.216rem;
 		color: #000000;
 		text-align: right;
