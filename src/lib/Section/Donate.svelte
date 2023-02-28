@@ -57,13 +57,13 @@
 	.left-side {
 		max-width: 35.625rem;
 		margin-top: 0.5em;
-		font-size: 1.5625rem;
+		font-size: 1.563rem;
 		line-height: 150.19%;
 		padding-right: 3.125rem;
 	}
 
 	.right-side {
-		border-left: 0.3125rem solid #f2f2f2;
+		border-left: 0.313rem solid #f2f2f2;
 		padding-left: 3.125rem;
 		width: 100%;
 		margin-top: -7.6rem;

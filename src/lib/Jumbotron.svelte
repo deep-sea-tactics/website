@@ -7,7 +7,7 @@
 		background-image: url('/images/jumbotron.png');
 		background-size: cover;
 		background-position: center;
-		height: 32.0625rem;
+		height: 32.063rem;
 		width: 100%;
 		display: flex;
 	}
@@ -18,16 +18,16 @@
 		font-weight: 600;
 		line-height: 3.75rem;
 		font-size: 3rem;
-		max-width: 53.4375rem;
+		max-width: 53.438rem;
 		font-style: normal;
 
 		/* position as in prototype, which is not yet finalized. */
 		position: relative;
 		top: 4.375rem;
-		left: 2.4375rem;
+		left: 2.438rem;
 	}
 
-	@media screen and (max-width: 50.3125rem) {
+	@media screen and (max-width: 50.313rem) {
 		.jumbotron {
 			height: 18.75rem;
 		}

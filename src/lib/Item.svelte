@@ -9,14 +9,14 @@
 	<div class="key" style="color: {color};">
 		<slot />
 	</div>
-	<div class="value" style="border-left: 0.3125rem solid {color}">
+	<div class="value" style="border-left: 0.313rem solid {color}">
 		<h3 style="color: {color}">{value}</h3>
 	</div>
 </div>
 
 <style>
 	.wrapper {
-		border-radius: 3.0625rem;
+		border-radius: 3.067rem;
 		min-height: 6.75rem;
 		display: flex;
 		flex-direction: row;
@@ -68,7 +68,7 @@
 
 		.value {
 			border-left: none !important;
-			border-top: 0.159375rem solid var(--color);
+			border-top: 0.159rem solid var(--color);
 			padding: 1rem;
 			word-break: break-all;
 		}

@@ -18,7 +18,7 @@
 
 	.logo {
 		width: 23.75rem;
-		height: 7.5625rem;
+		height: 7.563rem;
 		margin-left: 1rem;
 	}
 
@@ -28,7 +28,7 @@
 		font-family: 'Bebas Neue';
 		font-style: normal;
 		font-weight: 400;
-		line-height: 1.8125rem;
+		line-height: 1.813rem;
 		letter-spacing: 0.27rem;
 		color: #000000;
 		text-align: right;
@@ -42,7 +42,7 @@
 		margin-right: 1rem;
 	}
 
-	@media screen and (max-width: 50.3125rem) {
+	@media screen and (max-width: 50.313rem) {
 		.navbar {
 			flex-direction: column;
 			text-align: center;
@@ -59,7 +59,7 @@
 		.links {
 			margin: 0;
 			font-size: 1.125rem;
-			line-height: 1.3125rem;
+			line-height: 1.313rem;
 			margin-top: 1rem;
 			text-align: center;
 		}

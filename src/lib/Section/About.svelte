@@ -34,7 +34,7 @@
 		font-style: normal;
 		font-weight: 400;
 		font-size: 1.563rem;
-		line-height: 1.5019;
+		line-height: 1.502;
 		margin-right: 0.188rem;
 		margin-bottom: 0;
 	}

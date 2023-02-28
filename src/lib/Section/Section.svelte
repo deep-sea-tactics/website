@@ -38,7 +38,7 @@
 		width: 35.625rem;
 		margin-left: 0rem;
 		margin-top: 1.25rem;
-		height: 0.021875rem;
+		height: 0.022rem;
 		max-width: 80vw;
 	}
 
