@@ -7,7 +7,7 @@
 		background-image: url('/images/jumbotron.png');
 		background-size: cover;
 		background-position: center;
-		height: 513px;
+		height: 32.063rem;
 		width: 100%;
 		display: flex;
 	}
@@ -16,27 +16,27 @@
 		font-family: 'Roboto';
 		color: white;
 		font-weight: 600;
-		line-height: 60px;
-		font-size: 48px;
-		max-width: 855px;
+		line-height: 3.75rem;
+		font-size: 3rem;
+		max-width: 53.438rem;
 		font-style: normal;
 
 		/* position as in prototype, which is not yet finalized. */
 		position: relative;
-		top: 70px;
-		left: 39px;
+		top: 4.375rem;
+		left: 2.438rem;
 	}
 
-	@media screen and (max-width: 805px) {
+	@media screen and (max-width: 50.313rem) {
 		.jumbotron {
-			height: 300px;
+			height: 18.75rem;
 		}
 
 		.jumbotron h2 {
-			font-size: 24px;
-			line-height: 28px;
-			top: 40px;
-			left: 16px;
+			font-size: 1.5rem;
+			line-height: 1.75rem;
+			top: 2.5rem;
+			left: 1rem;
 			max-width: 90vw;
 		}
 	}
