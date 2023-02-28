@@ -61,6 +61,7 @@
 			font-size: 1.125rem;
 			line-height: 1.313rem;
 			margin-top: 1rem;
+			padding-bottom: .8rem;
 			text-align: center;
 		}
 	}
