@@ -47,7 +47,7 @@
 		font-style: normal;
 		font-weight: 400;
 		font-size: 1.5rem;
-		line-height: 120.152%;
+		line-height: 150.19%;
 		margin-bottom: 0rem;
 		margin-top: 0rem;
 	}
