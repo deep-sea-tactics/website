@@ -16,7 +16,7 @@
 
 <style>
 	.wrapper {
-		border-radius: 2.4536rem;
+		border-radius: 3.067rem;
 		min-height: 5.4rem;
 		display: flex;
 		flex-direction: row;
