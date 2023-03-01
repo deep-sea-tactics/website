@@ -55,27 +55,27 @@
 	}
 
 	.left-side {
-		max-width: 35.625rem;
-		margin-top: 0.5em;
-		font-size: 1.563rem;
+		max-width: 28.5rem;
+		margin-top: 0.4em;
+		font-size: 1.25rem;
 		line-height: 150.19%;
-		padding-right: 3.125rem;
+		padding-right: 2.5rem;
 	}
 
 	.right-side {
-		border-left: 0.313rem solid #f2f2f2;
-		padding-left: 3.125rem;
+		border-left: 0.25rem solid #f2f2f2;
+		padding-left: 2.5rem;
 		width: 100%;
-		margin-top: -7.6rem;
-		padding-top: 2rem;
-		padding-bottom: 2rem;
+		margin-top: -7rem;
+		padding-top: 1.6rem;
+		padding-bottom: 1.6rem;
 	}
 
 	.number h3 {
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: bold;
-		font-size: 4rem;
+		font-size: 3.2rem;
 		line-height: 3.625rem;
 		margin-bottom: 0rem;
 		margin-top: 0rem;

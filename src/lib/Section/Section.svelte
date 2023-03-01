@@ -19,26 +19,26 @@
 
 <style>
 	.section {
-		padding-top: 2rem;
-		padding-left: 2rem;
-		padding-right: 2rem;
+		padding-top: 1.6rem;
+		padding-left: 1.6rem;
+		padding-right: 1.6rem;
 	}
 
 	.section h3 {
 		font-family: 'Bebas Neue';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 3rem;
+		font-size: 2.4rem;
 		line-height: 3.625rem;
 		margin-bottom: 0rem;
 		margin-top: 0rem;
 	}
 
 	.section hr {
-		width: 35.625rem;
+		width: 28.5rem;
 		margin-left: 0rem;
-		margin-top: 1.25rem;
-		height: 0.022rem;
+		margin-top: 1rem;
+		height: 0.018rem;
 		max-width: 80vw;
 	}
 

@@ -17,28 +17,28 @@
 <style>
 	.wrapper {
 		border-radius: 3.067rem;
-		min-height: 6.75rem;
+		min-height: 5.4rem;
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		padding: 0 3rem;
-		margin-right: 3rem;
-		margin-top: 1rem;
-		margin-bottom: 1rem;
+		padding: 0 2.4rem;
+		margin-right: 2.4rem;
+		margin-top: .8rem;
+		margin-bottom: .8rem;
 	}
 
 	.key {
 		height: 100%;
 		display: flex;
 		align-items: center;
-		padding-right: 2.5rem;
+		padding-right: 2rem;
 	}
 
 	.value {
 		min-height: inherit;
 		display: flex;
 		align-items: center;
-		padding-left: 2rem;
+		padding-left: 1.6rem;
 		word-break: break-word;
 	}
 
@@ -46,7 +46,7 @@
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 1.875rem;
+		font-size: 1.5rem;
 		line-height: 150.19%;
 		margin-bottom: 0rem;
 		margin-top: 0rem;
@@ -57,19 +57,19 @@
 		.wrapper {
 			flex-direction: column;
 			height: auto;
-			padding: 1rem;
+			padding: .8rem;
 			margin-left: auto;
 			margin-right: auto;
 		}
 
 		.key {
-			padding: 1rem;
+			padding: .8rem;
 		}
 
 		.value {
 			border-left: none !important;
-			border-top: 0.159rem solid var(--color);
-			padding: 1rem;
+			border-top: 0.127rem solid var(--color);
+			padding: 0.8rem;
 			word-break: break-all;
 		}
 	}

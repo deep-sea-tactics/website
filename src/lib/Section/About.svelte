@@ -27,15 +27,14 @@
 		</p>
 	</Section>
 </div>
-
 <style>
 	p {
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 400;
-		font-size: 1.563rem;
+		font-size: 1.25rem;
 		line-height: 1.502;
-		margin-right: 0.188rem;
+		margin-right: 0.15rem;
 		margin-bottom: 0;
 	}
 </style>

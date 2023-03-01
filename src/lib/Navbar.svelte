@@ -17,19 +17,19 @@
 	}
 
 	.logo {
-		width: 23.75rem;
-		height: 7.563rem;
-		margin-left: 1rem;
+		width: 19rem;
+		height: 6.0504rem;
+		margin-left: .8rem;
 	}
 
 	.links {
-		margin-right: 1.5rem;
-		font-size: 1.7rem;
+		margin-right: 1.2rem;
+		font-size: 1.36rem;
 		font-family: 'Bebas Neue';
 		font-style: normal;
 		font-weight: 400;
 		line-height: 1.813rem;
-		letter-spacing: 0.27rem;
+		letter-spacing: 0.216rem;
 		color: #000000;
 		text-align: right;
 		text-decoration: none;
@@ -38,8 +38,8 @@
 	.links a {
 		color: inherit;
 		text-decoration: inherit;
-		margin-left: 1rem;
-		margin-right: 1rem;
+		margin-left: .8rem;
+		margin-right: .8rem;
 	}
 
 	@media screen and (max-width: 50.313rem) {
@@ -61,6 +61,7 @@
 			font-size: 1.125rem;
 			line-height: 1.313rem;
 			margin-top: 1rem;
+			padding-bottom: .8rem;
 			text-align: center;
 		}
 	}

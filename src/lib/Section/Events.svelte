@@ -31,20 +31,20 @@
 	}
 
 	.date h3 {
-		margin-top: 0.625rem;
-		margin-bottom: 0.625rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
 	}
 
 	.month {
-		font-size: 1.25rem;
+		font-size: 1rem;
 	}
 
 	.day {
-		font-size: 2.25rem;
+		font-size: 1.8rem;
 	}
 
 	.item-wrapper {
-		margin-top: 2.5rem;
-		margin-bottom: 2.5rem;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 	}
 </style>
