@@ -1,6 +1,6 @@
 # lhs-underwater-robotics
 
-This is the website for the LHS Deep Sea Tactics team.
+The website for the LHS Deep Sea Tactics team.
 
 find it here: https://willuhmjs.github.io/lhs-underwater-robotics
 
