@@ -89,6 +89,7 @@
 
 		.left-side {
 			padding-right: 0rem;
+			max-width: 100%;
 		}
 
 		.right-side {
