@@ -22,8 +22,8 @@
 		flex-direction: row;
 		align-items: center;
 		padding: 0 2.4rem;
-		margin-right: 2.4rem;
-		margin-top: .8rem;
+		margin-right: 1rem;
+		margin-top: .9rem;
 		margin-bottom: .8rem;
 	}
 
