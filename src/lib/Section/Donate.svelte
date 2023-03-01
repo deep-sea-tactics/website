@@ -13,7 +13,7 @@
 				</p>
 				<p>
 					If you represent an organization that wishes to sponsor Deep Sea Tactics, please email our
-					team’s faculty mentor, Ty Schwartz, at tyler.swartz@vbschools.com
+					team’s faculty mentor, Ty Swartz, at tyler.swartz@vbschools.com
 				</p>
 			</div>
 			<div class="right-side">
