@@ -27,6 +27,10 @@
 		margin-bottom: .8rem;
 	}
 
+	.wrapper:hover {
+		filter: brightness(0.92);
+	}
+
 	.key {
 		height: 100%;
 		display: flex;
