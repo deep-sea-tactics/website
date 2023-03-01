@@ -40,6 +40,11 @@
 		text-decoration: inherit;
 		margin-left: .8rem;
 		margin-right: .8rem;
+		transition: background-color 0.2s ease-in-out;
+	}
+
+	.links a:hover {
+		color: #666666;
 	}
 
 	@media screen and (max-width: 50.313rem) {
