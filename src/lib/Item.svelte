@@ -70,7 +70,6 @@
 			border-left: none !important;
 			border-top: 0.127rem solid var(--color);
 			padding: 0.8rem;
-			word-break: break-all;
 		}
 	}
 </style>
