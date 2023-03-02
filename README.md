@@ -1,4 +1,4 @@
-# deepseatactics.com/
+# [website](deepseatactics.com)
 
 The website for the LHS Deep Sea Tactics team.
 
