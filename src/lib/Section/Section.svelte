@@ -20,8 +20,8 @@
 <style>
 	.section {
 		padding-top: 1.6rem;
-		padding-left: 1.6rem;
-		padding-right: 1.6rem;
+		padding-left: 2.7rem;
+		padding-right: 2.7rem;
 	}
 
 	.section h3 {
@@ -42,4 +42,14 @@
 		max-width: 80vw;
 	}
 
+	@media screen and (max-width: 50.313rem) {
+		.section {
+			padding-left: 1.6rem;
+			padding-right: 1.6rem;
+		}
+
+		.section hr {
+			width: 100%;
+		}
+	}
 </style>
