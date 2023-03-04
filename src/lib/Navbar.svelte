@@ -19,7 +19,7 @@
 	.logo {
 		width: 19rem;
 		height: 6.0504rem;
-		margin-left: .8rem;
+		margin-left: 0.8rem;
 	}
 
 	.links {
@@ -38,8 +38,8 @@
 	.links a {
 		color: inherit;
 		text-decoration: inherit;
-		margin-left: .8rem;
-		margin-right: .8rem;
+		margin-left: 0.8rem;
+		margin-right: 0.8rem;
 		transition: background-color 0.2s ease-in-out;
 	}
 
@@ -66,7 +66,7 @@
 			font-size: 1.125rem;
 			line-height: 1.313rem;
 			margin-top: 1rem;
-			padding-bottom: .8rem;
+			padding-bottom: 0.8rem;
 			text-align: center;
 		}
 	}

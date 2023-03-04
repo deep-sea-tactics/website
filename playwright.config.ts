@@ -6,7 +6,7 @@ const config: PlaywrightTestConfig = {
 		port: 4173
 	},
 	use: {
-		baseURL: 'http://localhost:4173/lhs-underwater-robotics',
+		baseURL: 'http://localhost:4173/lhs-underwater-robotics'
 	},
 	testDir: 'tests'
 };

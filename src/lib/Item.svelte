@@ -23,8 +23,8 @@
 		align-items: center;
 		padding: 0 2.4rem;
 		margin-right: 1rem;
-		margin-top: .9rem;
-		margin-bottom: .8rem;
+		margin-top: 0.9rem;
+		margin-bottom: 0.8rem;
 	}
 
 	.key {
@@ -57,13 +57,13 @@
 		.wrapper {
 			flex-direction: column;
 			height: auto;
-			padding: .8rem;
+			padding: 0.8rem;
 			margin-left: auto;
 			margin-right: auto;
 		}
 
 		.key {
-			padding: .8rem;
+			padding: 0.8rem;
 		}
 
 		.value {

@@ -18,13 +18,13 @@
 		font-weight: 600;
 		line-height: 3.75rem;
 		font-size: 2.4rem;
-		max-width: 42.750rem;
+		max-width: 42.75rem;
 		font-style: normal;
 
 		/* position as in prototype, which is not yet finalized. */
 		position: relative;
 		top: 3.5rem;
-		left: 1.950rem;
+		left: 1.95rem;
 	}
 
 	@media screen and (max-width: 50.313rem) {
