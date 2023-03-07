@@ -13,7 +13,7 @@
 				</p>
 				<p>
 					If you represent an organization that wishes to sponsor Deep Sea Tactics, please email our
-					team’s faculty mentor, Ty Swartz, at tyler.swartz@vbschools.com
+					team’s faculty mentor, Ty Swartz, at <a href="tyler.swartz@vbschools.com">tyler.swartz@vbschools.com</a>.
 				</p>
 			</div>
 			<div class="right-side">
@@ -79,6 +79,10 @@
 		line-height: 3.625rem;
 		margin-bottom: 0rem;
 		margin-top: 0rem;
+	}
+
+	a {
+		color: #3b9fbd;
 	}
 
 	/* become horizontal on mobile */
