@@ -10,7 +10,7 @@
 		<slot />
 	</div>
 	<div class="value" style="border-left: 0.313rem solid {color}">
-		<h3 style="color: {color}">{value}</h3>
+		<h3 style="color: {color}">{@html value}</h3>
 	</div>
 </div>
 
