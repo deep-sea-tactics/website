@@ -17,29 +17,24 @@
 				</p>
 			</div>
 			<div class="right-side">
-				<Item backgroundColor="#f2f2f2" value="To be determined.">
+				<Item backgroundColor="#f2f2f2" value="Go to <a target='_blank' href='https://vbschools.schoolcashonline.com/Fee/Details/9513/247/False/True'>the donation page</a> via SchoolCashOnline.">
 					<div class="number">
 						<h3>1</h3>
 					</div>
 				</Item>
-				<Item backgroundColor="#f2f2f2" value="To be determined.">
+				<Item backgroundColor="#f2f2f2" value="Choose a donation quantity ($10 each).">
 					<div class="number">
 						<h3>2</h3>
 					</div>
 				</Item>
-				<Item backgroundColor="#f2f2f2" value="To be determined.">
+				<Item backgroundColor="#f2f2f2" value="Sign in, register, or checkout as guest.">
 					<div class="number">
 						<h3>3</h3>
 					</div>
 				</Item>
-				<Item backgroundColor="#f2f2f2" value="To be determined.">
+				<Item backgroundColor="#f2f2f2" value="Pay with your preferred payment method.">
 					<div class="number">
 						<h3>4</h3>
-					</div>
-				</Item>
-				<Item backgroundColor="#f2f2f2" value="To be determined.">
-					<div class="number">
-						<h3>5</h3>
 					</div>
 				</Item>
 			</div>
@@ -79,10 +74,6 @@
 		line-height: 3.625rem;
 		margin-bottom: 0rem;
 		margin-top: 0rem;
-	}
-
-	a {
-		color: #3b9fbd;
 	}
 
 	/* become horizontal on mobile */
