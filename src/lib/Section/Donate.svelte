@@ -22,7 +22,7 @@
 						<h3>1</h3>
 					</div>
 				</Item>
-				<Item backgroundColor="#f2f2f2" value="Choose a donation quantity ($10 each).">
+				<Item backgroundColor="#f2f2f2" value="Choose a donation amount by increasing the donation quantity (3 -> $30, 5 -> $50).">
 					<div class="number">
 						<h3>2</h3>
 					</div>
