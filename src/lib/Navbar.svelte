@@ -1,11 +1,4 @@
 <nav class="navbar">
-	<script type="application/ld+json">
-		{
-			 "@context": "http://schema.org",
-			 "@type": "SiteNavigationElement",
-			 "cssSelector": "tableOfContents"
-		}
-	</script>
 	<img src="./images/horizontal_logo.png" alt="Deep Sea Tactics Logo" class="logo" />
 	<div class="links">
 		<a href="#about">About</a>
