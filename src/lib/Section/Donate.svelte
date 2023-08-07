@@ -13,16 +13,24 @@
 				</p>
 				<p>
 					If you represent an organization that wishes to sponsor Deep Sea Tactics, please email our
-					team’s faculty mentor, Ty Swartz, at <a href="tyler.swartz@vbschools.com">tyler.swartz@vbschools.com</a>.
+					team’s faculty mentor, Ty Swartz, at <a href="mailto:tyler.swartz@vbschools.com"
+						>tyler.swartz@vbschools.com</a
+					>.
 				</p>
 			</div>
 			<div class="right-side">
-				<Item backgroundColor="#f2f2f2" value="Go to <a target='_blank' href='https://vbschools.schoolcashonline.com/Fee/Details/9513/247/False/True'>the donation page</a> via SchoolCashOnline.">
+				<Item
+					backgroundColor="#f2f2f2"
+					value="Go to <a target='_blank' href='https://vbschools.schoolcashonline.com/Fee/Details/9513/247/False/True'>the donation page</a> via SchoolCashOnline."
+				>
 					<div class="number">
 						<h3>1</h3>
 					</div>
 				</Item>
-				<Item backgroundColor="#f2f2f2" value="Choose a donation amount by increasing the donation quantity (3 -> $30, 5 -> $50).">
+				<Item
+					backgroundColor="#f2f2f2"
+					value="Choose a donation amount by increasing the donation quantity (3 -> $30, 5 -> $50)."
+				>
 					<div class="number">
 						<h3>2</h3>
 					</div>
