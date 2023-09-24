@@ -49,7 +49,7 @@
 
 <style>
 	p {
-		font-family: 'Roboto';
+		font-family: 'Encode Sans Variable', sans-serif;
 		font-style: normal;
 		font-weight: 400;
 		font-size: 1.25rem;

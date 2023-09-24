@@ -1,11 +1,11 @@
 <script>
 	export let img = '/images/jumbotron.png';
-	export let title = "Landstown High School's innovative underwater robotics team.";
+	export let title = "Landstown High School's innovative underwater robotics team";
 </script>
 
 <div class="jumbotron" role="banner" style="background-image: url('{img}')">
 	<div class="inner">
-		<h2>{title}</h2>
+		<h2>{@html title}</h2>
 	</div>
 </div>
 
@@ -13,23 +13,26 @@
 	.jumbotron {
 		background-size: cover;
 		background-position: center;
-		height: 25.6504rem;
+		height: 26rem;
 		width: 100%;
 		display: flex;
 		align-items: center;
 		justify-content: center;
 	}
 	.inner {
-		width: 90%;
+		background-color: rgba(0, 0, 0, 0.2);
+		padding: 0 5%;
+		width: 100%;
 		height: 100%;
+		overflow: hidden;
 	}
 
 	.jumbotron h2 {
-		font-family: 'Roboto';
+		font-family: 'Bebas Neue', sans-serif;
 		color: white;
 		font-weight: 600;
 		line-height: 3.75rem;
-		font-size: 2.4rem;
+		font-size: 4rem;
 		max-width: 42.75rem;
 		font-style: normal;
 
@@ -39,14 +42,23 @@
 		left: 1.95rem;
 	}
 
-	@media screen and (max-width: 50.313rem) {
-		.jumbotron {
-			height: 18.75rem;
-		}
+	@media screen and (max-width: 500px) {
 		.jumbotron h2 {
-			font-size: 1.5rem;
-			line-height: 1.75rem;
-			top: 2.5rem;
+			margin: 0;
+			max-width: 90%;
+		}
+	}
+
+	@media screen and (max-width: 400px) {
+		.jumbotron h2 {
+			font-size: 3.5rem;
+		}
+	}
+
+	@media screen and (max-width: 350px) {
+		.jumbotron h2 {
+			font-size: 3rem;
+			line-height: 3.25rem;
 		}
 	}
 </style>

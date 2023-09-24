@@ -13,6 +13,7 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@fontsource-variable/encode-sans": "^5.0.8",
 		"@fontsource/bebas-neue": "^5.0.12",
 		"@fontsource/roboto": "^5.0.8",
 		"@playwright/test": "^1.28.1",

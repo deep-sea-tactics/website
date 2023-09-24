@@ -25,7 +25,7 @@
 <style>
 	.date {
 		text-transform: uppercase;
-		font-family: Roboto;
+		font-family: 'Encode Sans Variable', sans-serif;
 		font-weight: 700;
 		text-align: center;
 	}

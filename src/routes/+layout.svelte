@@ -2,7 +2,7 @@
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
 
-	import '@fontsource/roboto/400.css';
+	import '@fontsource-variable/encode-sans';
 	import '@fontsource/bebas-neue';
 	import '../app.css';
 </script>
@@ -18,7 +18,7 @@
 <style>
 	:global(body) {
 		margin: 0;
-		font-family: 'Roboto';
+		font-family: 'Encode Sans Variable', sans-serif;
 		--bg: #f2f2f2;
 		--blue: #2c3289;
 		--textColor: #111111;

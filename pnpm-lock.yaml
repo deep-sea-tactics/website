@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@fontsource-variable/encode-sans':
+    specifier: ^5.0.8
+    version: 5.0.8
   '@fontsource/bebas-neue':
     specifier: ^5.0.12
     version: 5.0.12
@@ -304,6 +307,10 @@ packages:
   /@eslint/js@8.50.0:
     resolution: {integrity: sha512-NCC3zz2+nvYd+Ckfh87rA47zfu2QsQpvc6k1yzTk+b9KzRj0wkGa8LSoGOXN6Zv4lRf/EIoZ80biDh9HOI+RNQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    dev: true
+
+  /@fontsource-variable/encode-sans@5.0.8:
+    resolution: {integrity: sha512-d3+zSxyLn0fA+cGV11T79LRLIqOF81x7WXKiMqgOjJZBMA3Js2EFzoCB8QlGzbhLBGF9DOh3LamTFmyN5SfMtA==}
     dev: true
 
   /@fontsource/bebas-neue@5.0.12:

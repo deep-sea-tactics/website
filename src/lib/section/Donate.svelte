@@ -54,7 +54,7 @@
 	.wrapper {
 		display: flex;
 		flex-direction: row;
-		font-family: 'Roboto';
+		font-family: 'Encode Sans Variable', sans-serif;
 	}
 
 	.left-side {
@@ -75,7 +75,7 @@
 	}
 
 	.number h3 {
-		font-family: 'Roboto';
+		font-family: 'Encode Sans Variable', sans-serif;
 		font-style: normal;
 		font-weight: bold;
 		font-size: 3.2rem;
