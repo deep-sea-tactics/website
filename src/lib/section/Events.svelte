@@ -1,23 +1,38 @@
-<script>
+<script lang="ts">
 	import Section from './Section.svelte';
 	import Item from '../Item.svelte';
+
+	interface Event {
+		description: string;
+		month: string;
+		day: string;
+	}
+
+	const events: Event[] = [
+		{
+			description: 'Compete in the regional competition at Old Dominion University.',
+			month: 'May',
+			day: '13th'
+		},
+		{
+			description: 'Compete in the international competition in Longmont, Colorado.',
+			month: 'June',
+			day: '22nd'
+		}
+	];
 </script>
 
 <div id="events">
 	<Section header="Events">
 		<div class="item-wrapper">
-			<Item value="Compete in the regional competition at Old Dominion University.">
-				<div class="date">
-					<h3 class="month">May</h3>
-					<h3 class="day">13th</h3>
-				</div>
-			</Item>
-			<Item value="Compete in the international competition in Longmont, Colorado.">
-				<div class="date">
-					<h3 class="month">June</h3>
-					<h3 class="day">22nd</h3>
-				</div>
-			</Item>
+			{#each events as event}
+				<Item value={event.description}>
+					<div class="date">
+						<h3 class="month">{event.month}</h3>
+						<h3 class="day">{event.day}</h3>
+					</div>
+				</Item>
+			{/each}
 		</div>
 	</Section>
 </div>
