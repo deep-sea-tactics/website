@@ -1,6 +1,6 @@
 <script>
 	import Jumbotron from '$lib/Jumbotron.svelte';
-	import Section from '$lib/Section/Section.svelte';
+	import Section from '$lib/section/Section.svelte';
 </script>
 
 <Jumbotron title="About Us" />

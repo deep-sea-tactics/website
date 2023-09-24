@@ -1,6 +1,10 @@
 <script>
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
+
+	import '@fontsource/roboto/400.css';
+	import '@fontsource/bebas-neue';
+	import '../app.css';
 </script>
 
 <div class="content">
