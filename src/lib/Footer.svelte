@@ -1,26 +1,25 @@
 <div class="footer">
 	<div class="inner">
-		<div class="copyright desktop">
-			&copy; 2023 Landstown High School Deep Sea Tactics
-		</div>
-		<div class="copyright mobile">
-			&copy; 2023
-		</div>
-		
-		<div class="links" >
+		<div class="copyright desktop">&copy; 2023 Landstown High School Deep Sea Tactics</div>
+		<div class="copyright mobile">&copy; 2023</div>
+
+		<div class="links">
 			<a href="https://www.instagram.com/ltowndst/" target="_blank" rel="noreferrer">
-				<img src="/icons/instagram.svg" alt="instagram"/>
+				<img src="/icons/instagram.svg" alt="instagram" />
 			</a>
-			<a href="https://www.facebook.com/landstown.deepseatactics.1/ " target="_blank" rel="noreferrer">
-				<img src="/icons/facebook.svg" alt="instagram"/>
+			<a
+				href="https://www.facebook.com/landstown.deepseatactics.1/ "
+				target="_blank"
+				rel="noreferrer"
+			>
+				<img src="/icons/facebook.svg" alt="instagram" />
 			</a>
 			<a href="https://twitter.com/deepseatactics" target="_blank" rel="noreferrer">
-				<img src="/icons/x.svg" alt="instagram"/>
+				<img src="/icons/x.svg" alt="instagram" />
 			</a>
 		</div>
 	</div>
 </div>
-
 
 <style>
 	.footer {
@@ -62,7 +61,6 @@
 	.links > a:hover {
 		text-decoration: underline;
 		scale: 1.1;
-	
 	}
 	.links > a > img {
 		filter: invert(92%) sepia(96%) saturate(112%) hue-rotate(222deg) brightness(116%) contrast(89%);

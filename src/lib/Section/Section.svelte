@@ -11,13 +11,12 @@
 	style="background-color: {backgroundColor}; color: {color}"
 	role="region"
 	aria-label={header}
->	
+>
 	<div class="inner">
 		<h3>{header}</h3>
 		<hr style="background-color: {color};" />
 		<slot />
 	</div>
-	
 </div>
 
 <style>
@@ -52,7 +51,6 @@
 	}
 
 	@media screen and (max-width: 50.313rem) {
-
 		.section hr {
 			width: 100%;
 		}

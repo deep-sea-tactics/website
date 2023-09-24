@@ -1,24 +1,22 @@
 <script>
-	import Footer from "$lib/Footer.svelte";
-	import Navbar from "$lib/Navbar.svelte";
+	import Footer from '$lib/Footer.svelte';
+	import Navbar from '$lib/Navbar.svelte';
 </script>
 
-
 <div class="content">
-	<Navbar/>
+	<Navbar />
 	<div class="inner">
-		<slot></slot>
+		<slot />
 	</div>
-	  
 </div>
-<Footer/>
+<Footer />
 
 <style>
 	:global(body) {
 		margin: 0;
 		font-family: 'Roboto';
 		--bg: #f2f2f2;
-		--blue: #2C3289;
+		--blue: #2c3289;
 		--textColor: #111111;
 		--textColor2: #f1f1f1;
 	}
@@ -31,6 +29,6 @@
 		flex-direction: column;
 	}
 	.inner {
-		width: 100%
+		width: 100%;
 	}
 </style>

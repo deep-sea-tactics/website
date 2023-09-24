@@ -3,7 +3,6 @@
 		<img src="/images/horizontal_logo.png" alt="Deep Sea Tactics Logo" class="logo" />
 	</a>
 
-	
 	<div class="links">
 		<a href="/about">About</a>
 		<a href="/#events">Events</a>

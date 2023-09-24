@@ -7,7 +7,6 @@
 	<div class="inner">
 		<h2>{title}</h2>
 	</div>
-	
 </div>
 
 <style>
