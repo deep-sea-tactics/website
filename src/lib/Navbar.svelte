@@ -6,8 +6,8 @@
 	
 	<div class="links">
 		<a href="/about">About</a>
-		<a href="#events">Events</a>
-		<a href="#donate">Donate</a>
+		<a href="/#events">Events</a>
+		<a href="/#donate">Donate</a>
 	</div>
 </nav>
 
