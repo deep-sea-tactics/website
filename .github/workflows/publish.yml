@@ -28,6 +28,9 @@ jobs:
       - name: Install dependencies
         run: yarn
 
+      - name: Test build
+        run: yarn build
+
       - name: Install playwright
         run: npx playwright install
 
