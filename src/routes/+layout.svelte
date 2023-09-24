@@ -1,9 +1,14 @@
 <script>
 	import Footer from "$lib/Footer.svelte";
+	import Navbar from "$lib/Navbar.svelte";
 </script>
 
+<Navbar/>
 <div class="content">
-	  <slot></slot>
+	<div class="inner">
+		<slot></slot>
+	</div>
+	  
 </div>
 <Footer/>
 
@@ -20,5 +25,9 @@
 		padding-bottom: 60px;
 		box-sizing: border-box;
 		min-height: 100vh;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
 	}
 </style>

@@ -11,17 +11,26 @@
 	style="background-color: {backgroundColor}; color: {color}"
 	role="region"
 	aria-label={header}
->
-	<h3>{header}</h3>
-	<hr style="background-color: {color};" />
-	<slot />
+>	
+	<div class="inner">
+		<h3>{header}</h3>
+		<hr style="background-color: {color};" />
+		<slot />
+	</div>
+	
 </div>
 
 <style>
 	.section {
-		padding-top: 1.6rem;
-		padding-left: 2.7rem;
-		padding-right: 2.7rem;
+		width: 100%;
+		padding: 20px 0px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.inner {
+		width: 90%;
 	}
 
 	.section h3 {

@@ -1,5 +1,8 @@
 <div class="jumbotron" role="banner">
-	<h2>Landstown High School's innovative underwater robotics team.</h2>
+	<div class="inner">
+		<h2>Landstown High School's innovative underwater robotics team.</h2>
+	</div>
+	
 </div>
 
 <style>
@@ -10,6 +13,12 @@
 		height: 25.6504rem;
 		width: 100%;
 		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.inner {
+		width: 90%;
+		height: 100%;
 	}
 
 	.jumbotron h2 {

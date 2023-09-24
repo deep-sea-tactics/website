@@ -6,7 +6,6 @@
 	import Donate from '../lib/Section/Donate.svelte';
 </script>
 
-<Navbar />
 <Jumbotron />
 <About />
 <Events />
