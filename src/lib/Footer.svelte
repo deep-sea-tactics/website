@@ -24,7 +24,7 @@
 
 <style>
 	.footer {
-		margin-top: -60px;
+		margin-top: -61px;
 		width: 100%;
 		height: 60px;
 		line-height: 60px;

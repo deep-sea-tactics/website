@@ -1,13 +1,17 @@
-<div class="jumbotron" role="banner">
+<script>
+	export let img = '/images/jumbotron.png';
+	export let title = "Landstown High School's innovative underwater robotics team.";
+</script>
+
+<div class="jumbotron" role="banner" style="background-image: url('{img}')">
 	<div class="inner">
-		<h2>Landstown High School's innovative underwater robotics team.</h2>
+		<h2>{title}</h2>
 	</div>
 	
 </div>
 
 <style>
 	.jumbotron {
-		background-image: url('/images/jumbotron.png');
 		background-size: cover;
 		background-position: center;
 		height: 25.6504rem;
