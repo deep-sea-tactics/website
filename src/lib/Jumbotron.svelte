@@ -1,15 +1,27 @@
-<div class="jumbotron" role="banner">
-	<h2>Landstown High School's innovative underwater robotics team.</h2>
+<script>
+	export let img = '/images/jumbotron.png';
+	export let title = "Landstown High School's innovative underwater robotics team.";
+</script>
+
+<div class="jumbotron" role="banner" style="background-image: url('{img}')">
+	<div class="inner">
+		<h2>{title}</h2>
+	</div>
 </div>
 
 <style>
 	.jumbotron {
-		background-image: url('/images/jumbotron.png');
 		background-size: cover;
 		background-position: center;
 		height: 25.6504rem;
 		width: 100%;
 		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.inner {
+		width: 90%;
+		height: 100%;
 	}
 
 	.jumbotron h2 {
@@ -35,8 +47,6 @@
 			font-size: 1.5rem;
 			line-height: 1.75rem;
 			top: 2.5rem;
-			left: 1rem;
-			max-width: 90vw;
 		}
 	}
 </style>

@@ -1,9 +1,12 @@
 <nav class="navbar">
-	<img src="./images/horizontal_logo.png" alt="Deep Sea Tactics Logo" class="logo" />
+	<a href="/">
+		<img src="/images/horizontal_logo.png" alt="Deep Sea Tactics Logo" class="logo" />
+	</a>
+
 	<div class="links">
-		<a href="#about">About</a>
-		<a href="#events">Events</a>
-		<a href="#donate">Donate</a>
+		<a href="/about">About</a>
+		<a href="/#events">Events</a>
+		<a href="/#donate">Donate</a>
 	</div>
 </nav>
 
