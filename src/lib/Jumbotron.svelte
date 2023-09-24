@@ -44,8 +44,6 @@
 			font-size: 1.5rem;
 			line-height: 1.75rem;
 			top: 2.5rem;
-			left: 1rem;
-			max-width: 90vw;
 		}
 	}
 </style>

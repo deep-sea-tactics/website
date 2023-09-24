@@ -37,7 +37,7 @@
 		border-top: 1px solid var(--bg);
 	}
 	.inner {
-		width: 90%;
+		width: 95%;
 		margin: 0 auto;
 		display: flex;
 		flex-direction: row;

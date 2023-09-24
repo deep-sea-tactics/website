@@ -30,7 +30,7 @@
 		justify-content: center;
 	}
 	.inner {
-		width: 90%;
+		width: 95%;
 	}
 
 	.section h3 {
@@ -52,10 +52,6 @@
 	}
 
 	@media screen and (max-width: 50.313rem) {
-		.section {
-			padding-left: 1.6rem;
-			padding-right: 1.6rem;
-		}
 
 		.section hr {
 			width: 100%;
