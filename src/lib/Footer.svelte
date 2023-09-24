@@ -1,10 +1,13 @@
 <div class="footer">
 	<div class="inner">
-		<div class="copyright">
+		<div class="copyright desktop">
 			&copy; 2023 Landstown High School Deep Sea Tactics
 		</div>
+		<div class="copyright mobile">
+			&copy; 2023
+		</div>
 		
-		<div class=links>
+		<div class="links" >
 			<a href="https://www.instagram.com/ltowndst/" target="_blank" rel="noreferrer">
 				<img src="/icons/instagram.svg" alt="instagram"/>
 			</a>
@@ -16,7 +19,6 @@
 			</a>
 		</div>
 	</div>
-	
 </div>
 
 
@@ -66,5 +68,22 @@
 		filter: invert(92%) sepia(96%) saturate(112%) hue-rotate(222deg) brightness(116%) contrast(89%);
 		width: 2rem;
 		aspect-ratio: 1/1;
+	}
+
+	@media screen and (min-width: 1000px) {
+		.desktop {
+			display: block;
+		}
+		.mobile {
+			display: none !important;
+		}
+	}
+	@media screen and (max-width: 1000px) {
+		.desktop {
+			display: none;
+		}
+		.mobile {
+			display: block !important;
+		}
 	}
 </style>
