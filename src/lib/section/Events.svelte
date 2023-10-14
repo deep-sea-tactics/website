@@ -36,45 +36,47 @@
 
 <div id="events">
 	<Section header="Events">
-		<div class="item-wrapper">
-			{#each events as event}
-			<div class="eventWrap">
-				<div class="event">
-					<div class="eventInner">
-						<div class="eventTitle">
-							<h2>{event.title}</h2>
-							{#if event.date != null}
-								<h3>{getDateString(event.date)}</h3>
-							{:else}
-								<h3>Unscheduled</h3>
-							{/if}
+			<div class="item-wrapper">
+				{#each events as event}
+				<div class="eventWrap">
+					<div class="event">
+						<div class="eventInner">
+							<div class="eventTitle">
+								<h2>{event.title}</h2>
+								{#if event.date != null}
+									<h3>{getDateString(event.date)}</h3>
+								{:else}
+									<h3>Unscheduled</h3>
+								{/if}
+							</div>
+							
+							<div class="description">
+								{event.description}
+							</div>
 						</div>
 						
-						<div class="description">
-							{event.description}
-						</div>
 					</div>
-					
 				</div>
+				{/each}
 			</div>
-			{/each}
-		</div>
+		
 	</Section>
 </div>
 
 <style>
 	.item-wrapper {
-		margin-top: 2rem;
-		margin-bottom: 2rem;
 		display: flex;
-		flex-direction: row;
-		border-radius: 1rem;
+		flex-wrap: wrap;
+		margin: auto;
+		flex-shrink: 10;
+		justify-content: center;
 	}
 
 	.eventWrap {
-		min-width: 350px;
-		padding-right: 20px;
 		box-sizing: border-box;
+		min-width: 250px;
+		margin: 10px;
+		width: calc(25% - 20px);
 	}
 	.event {
 		
@@ -84,12 +86,18 @@
 		background-position: center;
 		background-size: cover;
 		background-image: url("/images/jumbotron.png");
+		height: 100%;
+		
 	}
 	.eventInner {
-		background: rgba(0, 0, 0, 0.3);
+		background: rgba(0, 0, 0, 0.5);
 		width: 100%;
 		height: 100%;
 		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: start;
 	}
 
 	.eventTitle {
@@ -99,8 +107,7 @@
 	.description {
 		width: 100%;
 		padding: 10px 20px;
-		margin-top: 5vh;
-		background: rgba(0, 0, 0, 0.3);
+		background: rgba(0, 0, 0, 0.5);
 		box-sizing: border-box;
 	}
 </style>
