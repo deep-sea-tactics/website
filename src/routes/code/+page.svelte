@@ -22,6 +22,12 @@
 		href="https://docs.google.com/presentation/d/1hFzDyHQYnNgS48k2M2PNZtbbVKK5jiLMvSDwyPQ8Xvk/edit?usp=sharing"
 		>Day 2 Presentation</a
 	>
+	<a
+		class="button"
+		target="_blank"
+		href="https://docs.google.com/presentation/d/1YggjZp9OtcKuCLOj_xPmk1b7rNvfhTdKo0cn4nE4Yr0/edit?usp=sharing"
+		>Day 3 Presentation</a
+	>
 </Section>
 
 <Section header="Importance Of Coding">
