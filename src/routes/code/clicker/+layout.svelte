@@ -3,7 +3,7 @@
 </script>
 
 <div class="fakeBody">
-	<slot/>
+	<slot />
 </div>
 
 <style>

@@ -2,7 +2,7 @@
 	import Section from './Section.svelte';
 
 	interface Event {
-		title: string,
+		title: string;
 		description: string;
 		date: Date | null;
 	}
@@ -14,7 +14,7 @@
 			date: new Date(new Date().setFullYear(2023, 4, 13))
 		},
 		{
-			title: "2023 International Competiton",
+			title: '2023 International Competiton',
 			description: 'Compete in the international competition in Longmont, Colorado.',
 			date: new Date(new Date().setFullYear(2023, 5, 22))
 		},
@@ -24,20 +24,24 @@
 			date: null
 		},
 		{
-			title: "2024 International Competiton",
+			title: '2024 International Competiton',
 			description: 'Compete in the international competition in Longmont, Colorado.',
 			date: null
 		}
 	];
 	let getDateString = (date: Date) => {
-		return new Intl.DateTimeFormat("en-US", { month: "long", day: "2-digit", year: "numeric" }).format(date);
-	}
+		return new Intl.DateTimeFormat('en-US', {
+			month: 'long',
+			day: '2-digit',
+			year: 'numeric'
+		}).format(date);
+	};
 </script>
 
 <div id="events">
 	<Section header="Events">
-			<div class="item-wrapper">
-				{#each events as event}
+		<div class="item-wrapper">
+			{#each events as event}
 				<div class="eventWrap">
 					<div class="event">
 						<div class="eventInner">
@@ -49,17 +53,15 @@
 									<h3>Unscheduled</h3>
 								{/if}
 							</div>
-							
+
 							<div class="description">
 								{event.description}
 							</div>
 						</div>
-						
 					</div>
 				</div>
-				{/each}
-			</div>
-		
+			{/each}
+		</div>
 	</Section>
 </div>
 
@@ -79,15 +81,13 @@
 		width: calc(25% - 20px);
 	}
 	.event {
-		
 		color: var(--textColor2);
 		z-index: 1;
 		backdrop-filter: blur(1px);
 		background-position: center;
 		background-size: cover;
-		background-image: url("/images/jumbotron.png");
+		background-image: url('/images/jumbotron.png');
 		height: 100%;
-		
 	}
 	.eventInner {
 		background: rgba(0, 0, 0, 0.5);
