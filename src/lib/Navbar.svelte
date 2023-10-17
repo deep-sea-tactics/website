@@ -1,4 +1,10 @@
-<nav class="navbar">
+<script lang="ts">
+	let scrollY = 0;
+</script>
+
+<svelte:window bind:scrollY />
+
+<nav class="navbar" class:small={scrollY > 0}>
 	<a href="/">
 		<img src="/images/horizontal_logo.png" alt="Deep Sea Tactics Logo" class="logo" />
 	</a>
@@ -12,17 +18,25 @@
 
 <style>
 	.navbar {
+		position: fixed;
 		display: flex;
 		flex-direction: row;
+		width: 100%;
+		z-index: 1;
 		justify-content: space-between;
 		align-items: center;
 		background-color: #f2f2f2;
 	}
 
 	.logo {
-		width: 19rem;
-		height: 6.0504rem;
+		width: auto;
+		height: 6rem;
 		margin-left: 0.8rem;
+		transition: height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+	}
+
+	.small .logo {
+		height: 4rem;
 	}
 
 	.links {
