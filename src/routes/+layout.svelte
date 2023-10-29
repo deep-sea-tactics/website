@@ -34,6 +34,5 @@
 	}
 	.inner {
 		width: 100%;
-		margin-top: 4rem;
 	}
 </style>

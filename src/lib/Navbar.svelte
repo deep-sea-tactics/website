@@ -4,6 +4,10 @@
 
 <svelte:window bind:scrollY />
 
+<div class="spacer">
+
+</div>
+
 <nav class="navbar" class:small={scrollY > 0}>
 	<a href="/">
 		<img src="/images/horizontal_logo.png" alt="Deep Sea Tactics Logo" class="logo" />
@@ -18,11 +22,12 @@
 
 <style>
 	.navbar {
-		position: fixed;
+		position: sticky;
 		display: flex;
 		flex-direction: row;
 		width: 100%;
 		z-index: 1;
+		top: 0px;
 		justify-content: space-between;
 		align-items: center;
 		background-color: #f2f2f2;
