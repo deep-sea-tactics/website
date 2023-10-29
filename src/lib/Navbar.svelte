@@ -26,6 +26,7 @@
 		justify-content: space-between;
 		align-items: center;
 		background-color: #f2f2f2;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 
 	.logo {
@@ -35,10 +36,7 @@
 		transition: height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
 
-	.small .logo {
-		height: 4rem;
-	}
-
+	
 	.links {
 		margin-right: 1.2rem;
 		font-size: 1.36rem;
@@ -63,6 +61,15 @@
 	.links a:hover {
 		color: #666666;
 	}
+
+	.small .logo {
+		height: 4rem;
+		width: auto;
+	}
+	.small .links {
+		margin-top: 5px;
+	}
+
 
 	@media screen and (max-width: 50.313rem) {
 		.navbar {
