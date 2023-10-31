@@ -17,10 +17,18 @@
 		<a href="/about">About</a>
 		<a href="/#events">Events</a>
 		<a href="/#donate">Donate</a>
+		<a href="/#">Teams</a>
+	</div>
+
+	<div class="teamsDropDown">
+		<a href="/team/code"></a>
 	</div>
 </nav>
 
 <style>
+	.teamsDropDown {
+		position: fixed;
+	}
 	.navbar {
 		position: sticky;
 		display: flex;
