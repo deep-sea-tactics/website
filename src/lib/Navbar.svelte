@@ -15,9 +15,9 @@
 
 	<div class="links">
 		<a href="/about">About</a>
-		<a href="/#events">Events</a>
+		<!--<a href="/#events">Events</a>
 		<a href="/#donate">Donate</a>
-		<a href="/#">Teams</a>
+		<a href="/#">Teams</a>-->
 	</div>
 
 	<div class="teamsDropDown">
