@@ -4,9 +4,7 @@
 
 <svelte:window bind:scrollY />
 
-<div class="spacer">
-
-</div>
+<div class="spacer"></div>
 
 <nav class="navbar" class:small={scrollY > 0}>
 	<a href="/">
@@ -49,7 +47,6 @@
 		transition: height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
 
-	
 	.links {
 		margin-right: 1.2rem;
 		font-size: 1.36rem;
@@ -82,7 +79,6 @@
 	.small .links {
 		margin-top: 5px;
 	}
-
 
 	@media screen and (max-width: 50.313rem) {
 		.navbar {
