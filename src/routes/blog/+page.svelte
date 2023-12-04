@@ -1,7 +1,8 @@
 <script lang="ts">
 	import Jumbotron from '$lib/Jumbotron.svelte';
+	import type { PageData } from './$types';
 
-	export let data;
+	export let data: PageData;
 </script>
 
 <Jumbotron title="Deep Sea Tactics Blog" />

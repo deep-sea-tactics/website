@@ -1,9 +1,9 @@
 <main>
-    <slot />
+	<slot />
 </main>
 
 <style>
-    main {
-        margin: 1rem;
-    }
+	main {
+		margin: 1rem;
+	}
 </style>
