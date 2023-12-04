@@ -9,23 +9,23 @@
 
 	const events: Event[] = [
 		{
-			title: '2023 Regional Competiton',
-			description: 'Compete in the regional competition at Old Dominion University.',
-			date: new Date(new Date().setFullYear(2023, 4, 13))
-		},
-		{
-			title: '2023 International Competiton',
-			description: 'Compete in the international competition in Longmont, Colorado.',
-			date: new Date(new Date().setFullYear(2023, 5, 22))
-		},
-		{
 			title: '2024 Regional Competiton',
 			description: 'Compete in the regional competition at Old Dominion University.',
-			date: null
+			date: new Date(new Date().setFullYear(2024, 4, 13))
 		},
 		{
 			title: '2024 International Competiton',
 			description: 'Compete in the international competition in Longmont, Colorado.',
+			date: new Date(new Date().setFullYear(2024, 5, 22))
+		},
+		{
+			title: '2025 Regional Competiton',
+			description: 'Compete in the regional competition at Old Dominion University.',
+			date: null
+		},
+		{
+			title: '2025 International Competiton',
+			description: 'Compete in the international competition TBD.',
 			date: null
 		}
 	];
