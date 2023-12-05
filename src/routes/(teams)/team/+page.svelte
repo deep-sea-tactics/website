@@ -3,13 +3,7 @@
 
 	$title = 'Deep Sea Tactics Teams';
 
-	const teams = [
-		'Engineering',
-		'Electrical',
-		'Software',
-		'Design',
-		'Marketing',
-	]
+	const teams = ['Engineering', 'Electrical', 'Software', 'Design', 'Marketing'];
 </script>
 
 <main>
@@ -20,7 +14,7 @@
 	<ul>
 		{#each teams as team}
 			<li>
-				<a href="{`/${team.toLowerCase()}`}">{team}</a>
+				<a href={`/${team.toLowerCase()}`}>{team}</a>
 			</li>
 		{/each}
 	</ul>

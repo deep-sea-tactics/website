@@ -17,7 +17,9 @@
 				<h2
 					in:fly={{ easing: cubicOut, x: 10, duration: 300, delay: 400 }}
 					out:fly={{ easing: cubicIn, x: -10, duration: 300 }}
-				>{@html $title}</h2>
+				>
+					{@html $title}
+				</h2>
 			{/key}
 		</div>
 	</div>

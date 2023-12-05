@@ -32,9 +32,9 @@
 		<p>
 			We participate in two distinct events every year - the regional competition and the
 			international competition. These competitions are hosted by
-			<a href="https://materovcompetition.org/">MATE</a>. These events are a great way to
-			meet other teams, learn about robotics, and have fun while improving our skills,
-			and shaping a brighter future.
+			<a href="https://materovcompetition.org/">MATE</a>. These events are a great way to meet other
+			teams, learn about robotics, and have fun while improving our skills, and shaping a brighter
+			future.
 		</p>
 		<div class="item-wrapper">
 			{#each events as event}
