@@ -10,12 +10,12 @@
 	const events: Event[] = [
 		{
 			title: 'Regional Competiton',
-			description: 'Compete in the regional competition at Old Dominion University.',
+			description: 'Compete in the regional MATE competition at Old Dominion University.',
 			date: new Date(new Date().setFullYear(2024, 4, 13))
 		},
 		{
 			title: 'International Competiton',
-			description: 'Compete in the international competition in Longmont, Colorado.',
+			description: 'Compete in the international MATE competition in Longmont, Colorado.',
 			date: new Date(new Date().setFullYear(2024, 5, 22))
 		}
 	];
@@ -31,8 +31,10 @@
 	<Section header="Events">
 		<p>
 			We participate in two distinct events every year - the regional competition and the
-			international competition. These events are a great way to meet other teams, learn about
-			robotics, and have fun while improving our skills, and shaping a brighter future.
+			international competition. These competitions are hosted by
+			<a href="https://materovcompetition.org/">MATE</a>. These events are a great way to
+			meet other teams, learn about robotics, and have fun while improving our skills,
+			and shaping a brighter future.
 		</p>
 		<div class="item-wrapper">
 			{#each events as event}
