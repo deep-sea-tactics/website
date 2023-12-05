@@ -1,21 +1,46 @@
 <script lang="ts">
 	import { title } from '$lib/Jumbotron.svelte';
-	import Section from '$lib/section/Section.svelte';
 	import Donate from '$lib/section/Donate.svelte';
 
 	$title = 'Sponsors';
+
+	interface Sponsor {
+		tier: string;
+		money: string;
+	}
+
+	const sponsors: Sponsor[] = [
+		{
+			tier: 'Diamond',
+			money: '$5,000+',
+		},
+		{
+			tier: 'Gold',
+			money: '$2,500+',
+		},
+		{
+			tier: 'Silver',
+			money: '$1,000+',
+		},
+		{
+			tier: 'Bronze',
+			money: '$500+',
+		},
+		{
+			tier: 'Other',
+			money: 'Honorable Mentions',
+		},
+	];
 </script>
 
 <main>
 	<h1>Sponsors</h1>
 
-	<Section header="Sponsors">
-		<h2 class="diamond">Diamond Sponsor ($5,000+)</h2>
-		<h2 class="gold">Gold Sponsor ($2,500+)</h2>
-		<h2 class="silver">Silver Sponsor ($1,000+)</h2>
-		<h2 class="bronze">Bronze Sponsor ($500+)</h2>
-		<h2 class="other">Honorable Mentions</h2>
-	</Section>
+	{#each sponsors as sponsor}
+		<div class="container">
+			<h2 class={sponsor.tier.toLowerCase()}>{sponsor.tier} Sponsor {sponsor.money}</h2>
+		</div>
+	{/each}
 </main>
 
 <Donate />
@@ -25,13 +50,25 @@
 		margin: 1rem;
 	}
 
-	h2 {
-		margin: 4rem 0;
+	h1 {
+		margin-top: 3rem;
 		text-align: center;
 	}
 
+	h2 {
+		margin: 4rem 0;
+		text-align: center;
+		padding: 1rem;
+		border-radius: 1rem;
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+	}
+
 	h2.diamond {
-		color: lightblue;
+		color: #00a0ff;
 	}
 
 	h2.gold {
