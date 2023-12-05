@@ -13,7 +13,6 @@
 
 	<div class="links">
 		<a href="/about">About</a>
-		<a href="/blog">Blog</a>
 		<div class="dropdown">
 			<a href="/team">Team</a>
 			<div class="dropdown-content">
