@@ -45,14 +45,6 @@
 </Section>
 
 <style>
-	p {
-		font-family: 'Encode Sans Variable', sans-serif;
-		font-style: normal;
-		font-weight: 400;
-		font-size: 1.25rem;
-		line-height: 1.502;
-		margin-right: 0.15rem;
-	}
 	.button {
 		background: var(--blue);
 		color: var(--textColor2);
