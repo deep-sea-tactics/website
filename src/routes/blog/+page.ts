@@ -14,8 +14,8 @@ async function fromArticle(slug: string) {
 	};
 }
 
-export const load: PageLoad = async ({ params }) => {
+export const load: PageLoad = async () => {
 	return {
-		posts: await Promise.all(posts.map((post) => fromArticle(post)))
+		posts: await Promise.all(posts.map(fromArticle))
 	};
 };
