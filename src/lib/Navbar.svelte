@@ -30,7 +30,7 @@
 
 <style>
 	nav {
-		position: sticky;
+		position: fixed;
 		display: flex;
 		flex-direction: row;
 		width: 100%;
