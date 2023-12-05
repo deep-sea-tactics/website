@@ -6,7 +6,8 @@
 
 	interface Sponsor {
 		tier: string;
-		money: string;
+		money?: string;
+		noSponsor?: boolean;
 	}
 
 	const sponsors: Sponsor[] = [
@@ -27,8 +28,8 @@
 			money: '$500+',
 		},
 		{
-			tier: 'Other',
-			money: 'Honorable Mentions',
+			tier: 'Honorable Mentions',
+			noSponsor: true,
 		},
 	];
 </script>
@@ -38,7 +39,15 @@
 
 	{#each sponsors as sponsor}
 		<div class="container">
-			<h2 class={sponsor.tier.toLowerCase()}>{sponsor.tier} Sponsor {sponsor.money}</h2>
+			<h2 class={sponsor.tier.toLowerCase()}>
+				{sponsor.tier} 
+				{#if !sponsor.noSponsor}
+					Sponsor
+				{/if}
+				{#if sponsor.money}
+					({sponsor.money})
+				{/if}
+			</h2>
 		</div>
 	{/each}
 </main>
