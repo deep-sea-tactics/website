@@ -1,9 +1,10 @@
 <script>
-	import Jumbotron from '$lib/Jumbotron.svelte';
+	import { title } from '$lib/Jumbotron.svelte';
 	import Section from '$lib/section/Section.svelte';
+
+	$title = 'About Us';
 </script>
 
-<Jumbotron title="About Us" />
 <Section header="Our Team">
 	<p>
 		As a team, we are more than just students - we are a group of innovative individuals who share

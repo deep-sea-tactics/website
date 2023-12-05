@@ -1,17 +1,30 @@
-<script>
+<script lang="ts">
 	import Footer from '$lib/Footer.svelte';
 	import Navbar from '$lib/Navbar.svelte';
+	import { fly } from 'svelte/transition';
+	import { cubicIn, cubicOut } from 'svelte/easing';
+	import type { PageData } from './$types';
+	import Jumbotron from '$lib/Jumbotron.svelte';
 
 	import '@fontsource-variable/encode-sans';
 	import '@fontsource/bebas-neue';
 	import '../app.css';
+
+	export let data: PageData;
 </script>
 
 <div class="content">
 	<Navbar />
-	<div class="inner">
-		<slot />
-	</div>
+	<Jumbotron />
+	{#key data.pathname}
+		<div
+			in:fly={{ easing: cubicOut, y: 10, duration: 300, delay: 400 }}
+			out:fly={{ easing: cubicIn, y: -10, duration: 300 }}
+			class="inner"
+		>
+			<slot />
+		</div>
+	{/key}
 </div>
 <Footer />
 

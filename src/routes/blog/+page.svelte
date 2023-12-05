@@ -1,11 +1,11 @@
 <script lang="ts">
-	import Jumbotron from '$lib/Jumbotron.svelte';
+	import { title } from '$lib/Jumbotron.svelte';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
-</script>
 
-<Jumbotron title="Deep Sea Tactics Blog" />
+	$title = 'Deep Sea Tactics Blog';
+</script>
 
 <div class="posts">
 	{#each data.posts as { slug, name, description, author }}

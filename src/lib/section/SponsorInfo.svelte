@@ -32,5 +32,11 @@
 		border-radius: 3px;
 		border: 2px solid white;
 		font-size: 2rem;
+		transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+	}
+
+	a:hover {
+		background-color: white;
+		color: black;
 	}
 </style>

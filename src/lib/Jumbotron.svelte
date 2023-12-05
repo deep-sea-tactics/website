@@ -1,13 +1,20 @@
-<script>
-	export let img = '/images/jumbotron.png';
-	export let title = "Landstown High School's innovative underwater robotics team";
+<script lang="ts" context="module">
+	import { writable } from 'svelte/store';
+
+	export const title = writable('');
 </script>
 
-<div class="jumbotron" role="banner" style="background-image: url('{img}')">
-	<div class="inner">
-		<h2>{@html title}</h2>
+<script lang="ts">
+	export let img = '/images/jumbotron.png';
+</script>
+
+{#if $title}
+	<div class="jumbotron" role="banner" style="background-image: url('{img}')">
+		<div class="inner">
+			<h2>{@html $title}</h2>
+		</div>
 	</div>
-</div>
+{/if}
 
 <style>
 	.jumbotron {

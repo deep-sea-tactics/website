@@ -1,8 +1,8 @@
 <script>
-	import Jumbotron from '$lib/Jumbotron.svelte';
-</script>
+	import { title } from '$lib/Jumbotron.svelte';
 
-<Jumbotron title="Deep Sea Tactics Teams" />
+	$title = 'Deep Sea Tactics Teams';
+</script>
 
 <main>
 	<h1>Teams</h1>
