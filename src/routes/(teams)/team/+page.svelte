@@ -7,9 +7,7 @@
 <main>
 	<h1>Teams</h1>
 
-	<p>
-		Deep Sea Tactics is split into five teams:
-	</p>
+	<p>Deep Sea Tactics is split into five teams:</p>
 </main>
 
 <style>

@@ -3,7 +3,5 @@
 </script>
 
 <Section header="Marketing">
-	<p>
-		Marketing 👍
-	</p>
+	<p>Marketing 👍</p>
 </Section>
