@@ -29,20 +29,19 @@
 		},
 		{
 			tier: 'Honorable Mentions',
+			money: '$100+',
 			noSponsor: true,
 		},
 	];
 </script>
 
 <main>
-	<h1>Sponsors</h1>
-
 	{#each sponsors as sponsor}
 		<div class="container">
 			<h2 class={sponsor.tier.toLowerCase()}>
 				{sponsor.tier} 
 				{#if !sponsor.noSponsor}
-					Sponsor
+					Sponsors
 				{/if}
 				{#if sponsor.money}
 					({sponsor.money})
@@ -59,16 +58,13 @@
 		margin: 1rem;
 	}
 
-	h1 {
-		margin-top: 3rem;
-		text-align: center;
-	}
-
 	h2 {
 		margin: 4rem 0;
 		text-align: center;
 		padding: 1rem;
 		border-radius: 1rem;
+		font-family: 'Bebas Neue', sans-serif;
+		font-size: 3.5rem;
 	}
 
 	.container {
