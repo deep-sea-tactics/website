@@ -6,7 +6,7 @@
 
 <div class="spacer"></div>
 
-<nav class="navbar" class:small={scrollY > 0}>
+<nav class:small={scrollY > 0}>
 	<a href="/">
 		<img src="/images/horizontal_logo.png" alt="Deep Sea Tactics Logo" class="logo" />
 	</a>
@@ -14,11 +14,21 @@
 	<div class="links">
 		<a href="/about">About</a>
 		<a href="/blog">Blog</a>
+		<div class="dropdown">
+			<a href="/team">Team</a>
+			<div class="dropdown-content">
+				<a href="/software">Software</a>
+				<a href="/electrical">Electrical</a>
+				<a href="/engineering">Engineering</a>
+				<a href="/design">Design</a>
+				<a href="/marketing">Marketing</a>
+			</div>
+		</div>
 	</div>
 </nav>
 
 <style>
-	.navbar {
+	nav {
 		position: sticky;
 		display: flex;
 		flex-direction: row;
@@ -31,11 +41,35 @@
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	}
 
+	.dropdown {
+		position: relative;
+		display: inline-block;
+	}
+
+	.dropdown-content {
+		display: none;
+		position: absolute;
+		background-color: #f2f2f2;
+		min-width: 10rem;
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+		z-index: 1;
+		transform: translateX(-50%);
+	}
+
+	.dropdown:hover .dropdown-content {
+		display: block;
+	}
+
 	.logo {
 		width: auto;
 		height: 6rem;
 		margin-left: 0.8rem;
-		transition: height 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+		transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+		opacity: 1;
+	}
+
+	.logo:hover {
+		opacity: 0.8;
 	}
 
 	.links {
@@ -72,7 +106,7 @@
 	}
 
 	@media screen and (max-width: 50.313rem) {
-		.navbar {
+		nav {
 			flex-direction: column;
 			text-align: center;
 			padding-bottom: 0.5rem;

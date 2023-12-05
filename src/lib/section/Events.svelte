@@ -9,37 +9,31 @@
 
 	const events: Event[] = [
 		{
-			title: '2024 Regional Competiton',
+			title: 'Regional Competiton',
 			description: 'Compete in the regional competition at Old Dominion University.',
 			date: new Date(new Date().setFullYear(2024, 4, 13))
 		},
 		{
-			title: '2024 International Competiton',
+			title: 'International Competiton',
 			description: 'Compete in the international competition in Longmont, Colorado.',
 			date: new Date(new Date().setFullYear(2024, 5, 22))
-		},
-		{
-			title: '2025 Regional Competiton',
-			description: 'Compete in the regional competition at Old Dominion University.',
-			date: null
-		},
-		{
-			title: '2025 International Competiton',
-			description: 'Compete in the international competition TBD.',
-			date: null
 		}
 	];
-	let getDateString = (date: Date) => {
-		return new Intl.DateTimeFormat('en-US', {
+	let getDateString = (date: Date) =>
+		new Intl.DateTimeFormat('en-US', {
 			month: 'long',
 			day: '2-digit',
 			year: 'numeric'
 		}).format(date);
-	};
 </script>
 
 <div id="events">
 	<Section header="Events">
+		<p>
+			We participate in two distinct events every year - the regional competition and the
+			international competition. These events are a great way to meet other teams, learn about
+			robotics, and have fun while improving our skills, and shaping a brighter future.
+		</p>
 		<div class="item-wrapper">
 			{#each events as event}
 				<div class="eventWrap">
@@ -78,7 +72,7 @@
 		box-sizing: border-box;
 		min-width: 250px;
 		margin: 10px;
-		width: calc(25% - 20px);
+		width: calc(50% - 20px);
 	}
 	.event {
 		color: var(--textColor2);

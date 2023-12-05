@@ -3,7 +3,7 @@
 </script>
 
 <div id="about">
-	<Section header="About" backgroundColor="#f2f2f2">
+	<Section header="About">
 		<p>
 			We are students from varied backgrounds with a shared passion for innovation and a bright
 			future. Together, we bring different skills, creative ideas, and perspectives to the table,
