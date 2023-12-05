@@ -4,7 +4,7 @@
 </script>
 
 <div id="donate">
-	<Section header="Donate" backgroundColor="#2C3289">
+	<Section header="To Donate" backgroundColor="#0e5db5">
 		<div class="wrapper">
 			<div class="left-side">
 				<p>
