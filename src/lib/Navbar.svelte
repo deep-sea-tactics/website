@@ -33,12 +33,14 @@
 		display: flex;
 		flex-direction: row;
 		width: 100%;
+		height: 100px;
 		z-index: 1;
 		top: 0px;
 		justify-content: space-between;
 		align-items: center;
 		background-color: #f2f2f2;
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+		transition: all 0.2s ease-in-out;	
 	}
 
 	.dropdown {
@@ -49,10 +51,11 @@
 	.dropdown-content {
 		display: none;
 		position: absolute;
-		background-color: #f2f2f2;
-		min-width: 10rem;
+		background-color: #ebebeb;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;
+		padding: 10px;
+		border-radius: 3px;
 		transform: translateX(-50%);
 	}
 
@@ -74,31 +77,38 @@
 
 	.links {
 		margin-right: 1.2rem;
-		font-size: 1.36rem;
 		font-family: 'Bebas Neue';
 		font-style: normal;
 		font-weight: 400;
-		line-height: 1.813rem;
-		letter-spacing: 0.216rem;
 		color: #000000;
 		text-align: right;
 		text-decoration: none;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		transition: all 0.2s ease-in-out;	
+		
 	}
 
 	.links a {
 		color: inherit;
 		text-decoration: inherit;
-		margin-left: 0.8rem;
-		margin-right: 0.8rem;
-		transition: background-color 0.2s ease-in-out;
+		margin-left: 15px;
+		font-size: 1.5rem;
+		margin-right: 15px;
+		transition: all 0.2s ease-in-out;	
 	}
 
 	.links a:hover {
 		color: #666666;
 	}
 
+	.small {
+		height: 70px;
+	}
+
 	.small .logo {
-		height: 4rem;
+		height: 70px;
 		width: auto;
 	}
 	.small .links {
@@ -111,6 +121,7 @@
 			text-align: center;
 			padding-bottom: 0.5rem;
 			padding-top: 0.5rem;
+			box-sizing: border-box;
 		}
 
 		.logo {
