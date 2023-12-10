@@ -1,5 +1,7 @@
 <script lang="ts" context="module">
+	import { cubicIn, cubicOut } from 'svelte/easing';
 	import { writable } from 'svelte/store';
+	import { fly } from 'svelte/transition';
 
 	export const title = writable('');
 </script>
@@ -11,7 +13,14 @@
 {#if $title}
 	<div class="jumbotron" role="banner" style="background-image: url('{img}')">
 		<div class="inner">
-			<h2>{@html $title}</h2>
+			{#key $title}
+				<h2
+					in:fly={{ easing: cubicOut, x: 10, duration: 300, delay: 400 }}
+					out:fly={{ easing: cubicIn, x: -10, duration: 300 }}
+				>
+					{@html $title}
+				</h2>
+			{/key}
 		</div>
 	</div>
 {/if}

@@ -1,7 +1,7 @@
 <script>
 	import { title } from '$lib/Jumbotron.svelte';
 
-	$title = 'Deep Sea Tactics Marketing';
+	$title = 'Deep Sea Tactics Engineering';
 </script>
 
 <slot />

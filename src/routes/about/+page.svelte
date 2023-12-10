@@ -44,9 +44,6 @@
 		stage for an inspiring tomorrow.
 	</p>
 </Section>
-<Section header="What are we up to?">
-	<p>Latest 3 blog entries</p>
-</Section>
 
 <style>
 	p {

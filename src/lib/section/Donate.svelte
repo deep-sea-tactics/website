@@ -4,7 +4,7 @@
 </script>
 
 <div id="donate">
-	<Section header="Donate" backgroundColor="#2C3289">
+	<Section header="To Donate" backgroundColor="#0e5db5">
 		<div class="wrapper">
 			<div class="left-side">
 				<p>
@@ -15,7 +15,7 @@
 					If you represent an organization that wishes to sponsor Deep Sea Tactics, please email our
 					team at <a href="mailto:landstowndeepseatactics@gmail.com"
 						>landstowndeepseatactics@gmail.com</a
-					>.
+					> to discuss your logo placement and sponsorship tier perks.
 				</p>
 			</div>
 			<div class="right-side">

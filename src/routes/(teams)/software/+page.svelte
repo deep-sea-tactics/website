@@ -7,33 +7,35 @@
 		Deep Sea Tactics is committed to inspiring future coders through our student-led JavaScript
 		course. This outreach program teaches critical thinking and problem-solving skills and piques
 		students' interest in the challenging yet exciting world of Deep Sea Tactics. We are delighted
-		to share all the resources we use for our coding course. Please find them below. (Only VBCPS
-		Students can view these)
+		to share all the resources we use for our coding course. Please find them below.
 	</p>
-	<a
+	<div class="buttonWrap">
+		<a
 		class="button"
 		target="_blank"
 		href="https://docs.google.com/presentation/d/1fkmtj-kx0g3BmO6LpGQE1kT-BR0K0BkrRjAKGz8UFUY/edit?usp=sharing"
 		>Day 1 Presentation</a
-	>
-	<a
-		class="button"
-		target="_blank"
-		href="https://docs.google.com/presentation/d/1hFzDyHQYnNgS48k2M2PNZtbbVKK5jiLMvSDwyPQ8Xvk/edit?usp=sharing"
-		>Day 2 Presentation</a
-	>
-	<a
-		class="button"
-		target="_blank"
-		href="https://docs.google.com/presentation/d/1YggjZp9OtcKuCLOj_xPmk1b7rNvfhTdKo0cn4nE4Yr0/edit?usp=sharing"
-		>Day 3 Presentation</a
-	>
-	<a
-		class="button"
-		target="_blank"
-		href="https://docs.google.com/presentation/d/1Jbo_Iz_h0lxGNMfxmNmRs4cMNxIJvmsw6u-qfSG8Xzg/edit?usp=sharing"
-		>Day 4 Presentation</a
-	>
+		>
+		<a
+			class="button"
+			target="_blank"
+			href="https://docs.google.com/presentation/d/1hFzDyHQYnNgS48k2M2PNZtbbVKK5jiLMvSDwyPQ8Xvk/edit?usp=sharing"
+			>Day 2 Presentation</a
+		>
+		<a
+			class="button"
+			target="_blank"
+			href="https://docs.google.com/presentation/d/1YggjZp9OtcKuCLOj_xPmk1b7rNvfhTdKo0cn4nE4Yr0/edit?usp=sharing"
+			>Day 3 Presentation</a
+		>
+		<a
+			class="button"
+			target="_blank"
+			href="https://docs.google.com/presentation/d/1Jbo_Iz_h0lxGNMfxmNmRs4cMNxIJvmsw6u-qfSG8Xzg/edit?usp=sharing"
+			>Day 4 Presentation</a
+		>
+	</div>
+	
 </Section>
 
 <Section header="Importance Of Coding">
@@ -45,11 +47,18 @@
 </Section>
 
 <style>
+	.buttonWrap {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: center;
+	}
 	.button {
 		background: var(--blue);
 		color: var(--textColor2);
 		border-radius: 3px;
-		margin-right: 20px;
+		margin: 10px;
 		padding: 10px 20px;
 		text-decoration: none;
 		font-family: 'Encode Sans Variable', sans-serif;

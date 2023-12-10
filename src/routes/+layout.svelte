@@ -33,7 +33,7 @@
 		margin: 0;
 		font-family: 'Encode Sans Variable', sans-serif;
 		--bg: #f2f2f2;
-		--blue: #2c3289;
+		--blue: #0e5db5;
 		--textColor: #111111;
 		--textColor2: #f1f1f1;
 	}
