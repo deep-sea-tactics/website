@@ -37,10 +37,10 @@
 	}
 	.inner {
 		background-color: rgba(0, 0, 0, 0.2);
-		padding: 0 5%;
 		width: 100%;
 		height: 100%;
-		overflow: hidden;
+		display: flex;
+		align-items: center;
 	}
 
 	.jumbotron h2 {
@@ -54,7 +54,6 @@
 
 		/* position as in prototype, which is not yet finalized. */
 		position: relative;
-		top: 3.5rem;
 		left: 1.95rem;
 	}
 

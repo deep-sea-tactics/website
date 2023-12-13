@@ -1,6 +1,5 @@
 <script>
 	import About from '$lib/section/About.svelte';
-	import SponsorInfo from '$lib/section/SponsorInfo.svelte';
 	import Events from '$lib/section/Events.svelte';
 	import { title } from '$lib/Jumbotron.svelte';
 
@@ -8,5 +7,4 @@
 </script>
 
 <About />
-<SponsorInfo />
 <Events />
