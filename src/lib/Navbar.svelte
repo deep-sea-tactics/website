@@ -23,7 +23,7 @@
 				<a href="/marketing">Marketing</a>
 			</div>
 		</div>
-		<a href="/sponsor">Tasks</a>
+		<a href="/tasks">Tasks</a>
 		<a href="/sponsor">Sponsor</a>
 	</div>
 </nav>
