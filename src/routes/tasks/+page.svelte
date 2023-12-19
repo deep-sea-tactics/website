@@ -4,6 +4,12 @@
 
 	$title = 'Tasks';
 </script>
+<Section header = "Task Links">
+	<li> 
+		<ul><a href = "/tasks/overview">Overview</a></ul>
+		<ul><a href = "/tasks/float">Float</a></ul>
+	</li>
+</Section>
 
 <Section header = "Coding Tasks"> 
 	<ul>
