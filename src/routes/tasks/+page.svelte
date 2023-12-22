@@ -1,38 +1,10 @@
-<script lang="ts">
-	import { title } from '$lib/Jumbotron.svelte';
-	import Section from '$lib/section/Section.svelte';
+<script>
+	import { goto } from '$app/navigation';
+	import { onMount } from 'svelte';
 
-	$title = 'Tasks';
+	onMount(() =>
+		goto(
+			'https://20693798.fs1.hubspotusercontent-na1.net/hubfs/20693798/2024%20RANGER%20Manual%20FINAL%20with%20Cover.pdf'
+		)
+	);
 </script>
-
-<Section header = "Coding Tasks"> 
-	<ul>
-		<li>Simulation</li>
-		<li>Local Development Setup</li>
-		<li>Float</li>
-	</ul>
-</Section>
-<Section header = "Marketing Tasks"> 
-	<ul>
-		<li>3 Sponsors</li>
-		<li>T-shirt design</li>
-		<li>Work on tiers</li>
-	</ul>
-</Section>
-<Section header = "Engineering Tasks"> 
-	<ul>
-		<li>ROV</li>
-	</ul>
-</Section>
-<Section header = "Design Tasks"> 
-	<ul>
-		<li>ROV Basics</li>
-		<li>Practicing design skills with basic body</li>
-	</ul>
-</Section>
-<Section header = "Electrical Tasks"> 
-	<ul>
-		<li>ROV Basics</li>
-	</ul>
-</Section>
-<br>
