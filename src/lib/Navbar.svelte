@@ -30,7 +30,7 @@
 
 <style>
 	nav {
-		position: fixed;
+		position: sticky;
 		display: flex;
 		flex-direction: row;
 		width: 100%;
@@ -104,18 +104,6 @@
 		color: #666666;
 	}
 
-	.small {
-		height: 70px;
-	}
-
-	.small .logo {
-		height: 70px;
-		width: auto;
-	}
-	.small .links {
-		margin-top: 5px;
-	}
-
 	@media screen and (max-width: 50.313rem) {
 		nav {
 			flex-direction: column;
@@ -124,10 +112,6 @@
 			padding-top: 0.5rem;
 			box-sizing: border-box;
 			height: 300px;
-		}
-
-		.small {
-			height: 150px;
 		}
 
 		.logo {

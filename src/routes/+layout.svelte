@@ -38,7 +38,6 @@
 		--textColor2: #f1f1f1;
 	}
 	.content {
-		padding-bottom: 61px;
 		box-sizing: border-box;
 		min-height: 100vh;
 		width: 100%;
