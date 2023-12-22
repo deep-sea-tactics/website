@@ -123,6 +123,7 @@
 			padding-bottom: 0.5rem;
 			padding-top: 0.5rem;
 			box-sizing: border-box;
+			height: 250px;
 		}
 
 		.logo {
