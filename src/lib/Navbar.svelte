@@ -126,6 +126,10 @@
 			height: 300px;
 		}
 
+		.small {
+			height: 150px;
+		}
+
 		.logo {
 			width: 80%;
 			height: auto;
