@@ -56,7 +56,7 @@
 	.links > a {
 		margin-left: 20px;
 		display: flex;
-		transition: all 0.2s ease-in-out;
+		transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
 	.links > a:hover {
 		text-decoration: underline;
