@@ -14,7 +14,7 @@
 	<div class="links">
 		<a href="/about">About</a>
 		<div class="dropdown">
-			<a href="/team">Team</a>
+			<a href="/team">Teams</a>
 			<div class="dropdown-content">
 				<a href="/software">Software</a>
 				<a href="/electrical">Electrical</a>
