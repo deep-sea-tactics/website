@@ -42,7 +42,7 @@
 						{@html team.name + "&nbsp;".repeat(20) + team.name + "&nbsp;".repeat(20)}
 					</Circle>
 				</div>
-				<a class="icon" href="/team/{team.name.toLowerCase()}">
+				<a class="icon" href="/{team.name.toLowerCase()}">
 					<img src="/icons/teams/{team.name.toLowerCase()}.svg" alt="{team.name} Logo" />
 				</a>
 			</div>
