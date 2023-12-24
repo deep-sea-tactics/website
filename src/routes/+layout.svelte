@@ -8,9 +8,9 @@
 <nav class="flex w-full items-center justify-between px-4 py-1 text-lg font-medium">
     <a href="/"><img src="horizontal_logo.png" alt="placeholder" class="h-20 filter invert" /></a>
     <ul class="flex flex-row gap-4">
-        <li><a href="#">Teams</a></li>
-        <li><a href="/tasks">Tasks</a></li>
-        <li><a href="#">Sponsor</a></li>
+        <li><a class="hover:text-blue-400" href="#">Teams</a></li>
+        <li><a class="hover:text-blue-400" href="/tasks">Tasks</a></li>
+        <li><a class="hover:text-blue-400" href="#">Sponsor</a></li>
     </ul>
 </nav>
 
