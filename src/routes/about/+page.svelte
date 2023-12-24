@@ -5,7 +5,7 @@
 	$title = 'About Us';
 </script>
 
-<Section header="Our Team">
+<Section header="Our Team" src="/images/TeamPhotoWorlds.png">
 	<p>
 		As a team, we are more than just students - we are a group of innovative individuals who share
 		the goal of creating a brighter future. Each of us possesses unique skills, ideas, and
@@ -23,7 +23,7 @@
 		ready to take on any challenge that comes our way.
 	</p>
 </Section>
-<Section header="Humble Beginnings">
+<Section header="Humble Beginnings" reverseSections={false}>
 	<p>
 		Founded by visionary individuals seeking an innovative platform, Deep Sea Tactics was born from
 		the vision of two senior high school students who laid the foundation of this company. Today, we
