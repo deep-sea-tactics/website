@@ -6,7 +6,9 @@
 </script>
 
 <nav>
-    <a href="/"><img src="horizontal_logo.png" alt="placeholder" /></a>
+    <a href="/" class="mainLink">
+		<img src="horizontal_logo.png" alt="placeholder" />
+	</a>
     <ul>
         <li><a href="#">Teams</a></li>
         <li><a href="/tasks">Tasks</a></li>
@@ -22,7 +24,7 @@
 		--accent: #3B82F6;
 		--text: #f1f1f1;
 
-
+		margin: 0px;
 		font-family: 'Poppins', sans-serif;
         background-color: var(--bg);
         color: var(--text);
@@ -41,14 +43,16 @@
         display: flex;
         flex-direction: row;
         gap: 1rem;
+		margin: 0px;
     }
 
     nav {
         display: flex;
+		box-sizing: border-box;
         width: 100%;
         align-items: center;
         justify-content: space-between;
-        padding: 0.5rem 1rem;
+        padding: 0.25rem 1rem;
         font-size: 1.125rem;
         line-height: 1.75rem;
         font-weight: 500;
@@ -57,14 +61,19 @@
     img {
         height: 5rem;
         filter: invert(100%);
+		height: 80px;
     }
 
     a {
         text-decoration: none;
         color: var(--text);
+		
     }
 
     a:hover {
         color: var(--accent);
     }
+	.mainLink {
+		height: 80px;
+	}
 </style>
