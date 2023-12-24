@@ -5,12 +5,12 @@
 	import '@fontsource/poppins/400.css';
 </script>
 
-<nav class="flex w-full items-center justify-between px-4 py-1 text-lg font-medium">
-    <a href="/"><img src="horizontal_logo.png" alt="placeholder" class="h-20 filter invert" /></a>
-    <ul class="flex flex-row gap-4">
-        <li><a class="hover:text-blue-400" href="#">Teams</a></li>
-        <li><a class="hover:text-blue-400" href="/tasks">Tasks</a></li>
-        <li><a class="hover:text-blue-400" href="#">Sponsor</a></li>
+<nav>
+    <a href="/"><img src="horizontal_logo.png" alt="placeholder" /></a>
+    <ul>
+        <li><a href="#">Teams</a></li>
+        <li><a href="/tasks">Tasks</a></li>
+        <li><a href="#">Sponsor</a></li>
     </ul>
 </nav>
 
@@ -18,12 +18,53 @@
 
 <style>
 	:global(body) {
+		--bg: #18181b;
+		--accent: #3B82F6;
+		--text: #f1f1f1;
+
+
 		font-family: 'Poppins', sans-serif;
-        background-color: #18181b;
-        color: white;
+        background-color: var(--bg);
+        color: var(--text);
+
+		
 	}
 
 	:global(*) {
 		box-sizing: border-box;
 	}
+
+    ul {
+        text-decoration: none;
+        color: white;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+
+    nav {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0.5rem 1rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+        font-weight: 500;
+    }
+
+    img {
+        height: 5rem;
+        filter: invert(100%);
+    }
+
+    a {
+        text-decoration: none;
+        color: var(--text);
+    }
+
+    a:hover {
+        color: var(--accent);
+    }
 </style>

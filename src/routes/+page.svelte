@@ -1,21 +1,24 @@
-<header class="flex h-[calc(100vh-88px)] flex-col justify-between">
+<script lang="ts">
+    const images = import.meta.glob('../images/*', { as: 'url', eager: true })
+
+    console.log(images)
+</script>
+
+<header>
     <div />
-	<div class="mx-auto flex max-w-screen-lg items-center justify-center text-center">
-		<h2 class="max-w-screen-lg text-7xl font-bold">
-			Innovation with an <span class="text-blue-500">aquatic</span> edge
+	<div class="title">
+		<h2>
+			Innovation with an <span class="water">aquatic</span> edge
 		</h2>
 	</div>
 
-	<div class="flex flex-col justify-evenly gap-2 overflow-x-hidden w-auto md:flex-row">
+	<div class="images">
 		<!-- TODO: Alt descriptions, unstretch images -->
-		<enhanced:img class="h-[180px]" src="../images/dst-tinkering.jpg" alt="placeholder" />
-		<enhanced:img class="h-[180px]" src="../images/dst-watching.jpg" alt="placeholder" />
-		<enhanced:img class="h-[180px]" src="../images/tadd-iii-pool.jpg" alt="placeholder" />
-		<enhanced:img class="h-[180px]" src="../images/dst-worlds.png" alt="placeholder" />
-		<enhanced:img class="h-[180px]" src="../images/dst-kitty.jpg" alt="placeholder" />
-		<enhanced:img class="h-[180px]" src="../images/dst-pilot.jpg" alt="placeholder" />
-		<enhanced:img class="h-[180px]" src="../images/dst-point.jpg" alt="placeholder" />
-        <enhanced:img class="h-[180px]" src="../images/dst-robot-front.jpg" alt="placeholder" />
+		{#each Object.values(images) as image}
+            <div class="image">
+                <img src={image} alt="placeholder" />
+            </div>
+        {/each}
 	</div>
 </header>
 
@@ -26,3 +29,45 @@
 <footer>
 	<!-- TODO: Our footer content goes here -->
 </footer>
+
+<style>
+    header {
+        display: flex;
+		height: calc(100vh - 88px);
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .title {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        max-width: 1024px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    h2 {
+        max-width: 800px;
+        font-size: 5rem;
+        font-weight: 700;
+    }
+
+    .water {
+        color: #3B82F6;
+    }
+
+    .images {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap: 0.5rem;
+        overflow-x: hidden;
+    }
+
+    img {
+        height: 220px;
+		object-fit: cover;
+    }
+</style>
