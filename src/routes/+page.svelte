@@ -2,8 +2,11 @@
     <nav class="font-medium text-lg flex justify-between items-center px-4 py-1 w-full">
         <img src="horizontal_logo.png" alt="placeholder" class="h-20">
         <ul class="flex flex-row gap-4">
-            <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
+            <li><a href="#">Teams</a></li>
+            <li><a href="#">Tasks</a></li>
+            <li><a href="#">Sponsor</a></li>
+
         </ul>
     </nav>
 
