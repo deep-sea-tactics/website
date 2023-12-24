@@ -1,13 +1,5 @@
-<header class="flex h-screen flex-col justify-between">
-	<nav class="flex w-full items-center justify-between px-4 py-1 text-lg font-medium">
-		<img src="horizontal_logo.png" alt="placeholder" class="h-20" />
-		<ul class="flex flex-row gap-4">
-			<li><a href="#">Teams</a></li>
-			<li><a href="/tasks">Tasks</a></li>
-			<li><a href="#">Sponsor</a></li>
-		</ul>
-	</nav>
-
+<header class="flex h-[calc(100vh-88px)] flex-col justify-between">
+    <div />
 	<div class="mx-auto flex max-w-screen-lg items-center justify-center text-center">
 		<h2 class="max-w-screen-lg text-7xl font-bold">
 			Innovation with an <span class="text-blue-500">aquatic</span> edge
@@ -16,13 +8,13 @@
 
 	<div class="flex flex-col justify-evenly gap-2 overflow-x-hidden md:flex-row">
 		<!-- TODO: Our images go here -->
-		<img src="https://via.placeholder.com/320x180" alt="placeholder" />
-		<img src="https://via.placeholder.com/320x180" alt="placeholder" />
-		<img src="https://via.placeholder.com/320x180" alt="placeholder" />
-		<img src="https://via.placeholder.com/320x180" alt="placeholder" />
-		<img src="https://via.placeholder.com/320x180" alt="placeholder" />
-		<img src="https://via.placeholder.com/320x180" alt="placeholder" />
-		<img src="https://via.placeholder.com/320x180" alt="placeholder" />
+		<img class="h-[180px]" src="/images/dst-tinkering.jpg" alt="placeholder" />
+		<img class="h-[180px]" src="/images/dst-watching.jpg" alt="placeholder" />
+		<img class="h-[180px]" src="/images/tadd-iii-pool.jpg" alt="placeholder" />
+		<img class="h-[180px]" src="/images/dst-worlds.png" alt="placeholder" />
+		<img class="h-[180px]" src="https://via.placeholder.com/320x180" alt="placeholder" />
+		<img class="h-[180px]" src="https://via.placeholder.com/320x180" alt="placeholder" />
+		<img class="h-[180px]" src="https://via.placeholder.com/320x180" alt="placeholder" />
 	</div>
 </header>
 
