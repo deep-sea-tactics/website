@@ -6,15 +6,16 @@
 		</h2>
 	</div>
 
-	<div class="flex flex-col justify-evenly gap-2 overflow-x-hidden md:flex-row">
-		<!-- TODO: Our images go here -->
-		<img class="h-[180px]" src="/images/dst-tinkering.jpg" alt="placeholder" />
-		<img class="h-[180px]" src="/images/dst-watching.jpg" alt="placeholder" />
-		<img class="h-[180px]" src="/images/tadd-iii-pool.jpg" alt="placeholder" />
-		<img class="h-[180px]" src="/images/dst-worlds.png" alt="placeholder" />
-		<img class="h-[180px]" src="https://via.placeholder.com/320x180" alt="placeholder" />
-		<img class="h-[180px]" src="https://via.placeholder.com/320x180" alt="placeholder" />
-		<img class="h-[180px]" src="https://via.placeholder.com/320x180" alt="placeholder" />
+	<div class="flex flex-col justify-evenly gap-2 overflow-x-hidden w-auto md:flex-row">
+		<!-- TODO: Alt descriptions, unstretch images -->
+		<enhanced:img class="h-[180px]" src="../images/dst-tinkering.jpg" alt="placeholder" />
+		<enhanced:img class="h-[180px]" src="../images/dst-watching.jpg" alt="placeholder" />
+		<enhanced:img class="h-[180px]" src="../images/tadd-iii-pool.jpg" alt="placeholder" />
+		<enhanced:img class="h-[180px]" src="../images/dst-worlds.png" alt="placeholder" />
+		<enhanced:img class="h-[180px]" src="../images/dst-kitty.jpg" alt="placeholder" />
+		<enhanced:img class="h-[180px]" src="../images/dst-pilot.jpg" alt="placeholder" />
+		<enhanced:img class="h-[180px]" src="../images/dst-point.jpg" alt="placeholder" />
+        <enhanced:img class="h-[180px]" src="../images/dst-robot-front.jpg" alt="placeholder" />
 	</div>
 </header>
 
