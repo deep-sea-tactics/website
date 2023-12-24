@@ -28,6 +28,8 @@
 </div>
 <Footer />
 
+
+
 <style>
 	:global(body) {
 		margin: 0;
