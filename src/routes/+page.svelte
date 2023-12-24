@@ -1,5 +1,5 @@
 <header class="flex flex-col h-screen justify-between">
-    <nav class="font-medium text-md flex justify-between items-center px-4 py-1 w-full">
+    <nav class="font-medium text-lg flex justify-between items-center px-4 py-1 w-full">
         <img src="horizontal_logo.png" alt="placeholder" class="h-20">
         <ul class="flex flex-row gap-4">
             <li><a href="#">Home</a></li>
