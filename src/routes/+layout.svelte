@@ -10,4 +10,8 @@ import '@fontsource/poppins/400.css';
     :global(body) {
     font-family: 'Poppins', sans-serif;
 }
+
+:global(*) {
+	box-sizing: border-box;
+}
 </style>
