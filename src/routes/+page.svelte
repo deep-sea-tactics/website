@@ -9,7 +9,7 @@
         <div>
             <h2 class="text-6xl font-bold">Landstown High School's innovative underwater robotics team</h2>
         </div>
-        <div class="flex flex-row justify-evenly">
+        <div class="flex md:flex-row flex-col justify-evenly overflow-x-hidden">
             <img src="https://via.placeholder.com/320x180" alt="placeholder">
             <img src="https://via.placeholder.com/320x180" alt="placeholder">
             <img src="https://via.placeholder.com/320x180" alt="placeholder">
