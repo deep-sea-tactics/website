@@ -1,5 +1,13 @@
 <script lang="ts">
-	const images = import.meta.glob('../images/*', { as: 'url', eager: true });
+    interface Image {
+        src: string;
+        width: number;
+    }
+
+	const images: Image[] = Object.values(import.meta.glob('../images/*', { as: 'url', eager: true }))
+        .map((url) => ({ src: url, width: 0 }));
+
+    $: widthSum = images.reduce((acc, cur) => acc + cur.width, 0);
 </script>
 
 <header>
@@ -10,14 +18,21 @@
 		</h2>
 	</div>
 
-	<div class="images">
-		<!-- TODO: Alt descriptions, unstretch images -->
-		{#each Object.values(images) as image}
-			<div class="image">
-				<img src={image} alt="placeholder" />
-			</div>
-		{/each}
-	</div>
+    <div class="images-container">
+        <div class="images" style="--widthSum: -{widthSum}px;">
+            <!-- TODO: Alt descriptions, unstretch images -->
+            {#each Object.values(images) as image}
+                <div class="image" bind:clientWidth={image.width}>
+                    <img src={image.src} alt="placeholder" />
+                </div>
+            {/each}
+            {#each Object.values(images) as image}
+                <div class="image">
+                    <img src={image.src} alt="placeholder" />
+                </div>
+            {/each}
+        </div>
+    </div>
 </header>
 
 <main>
@@ -53,22 +68,32 @@
 	}
 
 	.water {
-		color: var(--accent);
-		transition: filter 0.4s cubic-bezier(0.075, 0.82, 0.165, 1)
+        background: linear-gradient(to right, #0151c1, var(--accent));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 	}
 
-	.water:hover {
-        filter: drop-shadow(0px 0px 5px #4444dd);
-
+    .images-container {
+		width: 100%;
+		overflow: hidden;
 	}
 
 	.images {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-evenly;
 		gap: .5rem;
-		overflow-x: hidden;
+        animation: slideshow 30s linear infinite;
+        width: 200%;
+        flex-wrap: nowrap;
 	}
+
+    .image {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
 	img {
 		height: 220px;
@@ -86,5 +111,12 @@
         scale: 0.975;
     }
 
-	
+    @keyframes slideshow {
+		0% {
+			transform: translateX(0);
+		}
+		100% {
+			transform: translateX(var(--widthSum, 0));
+		}
+	}
 </style>
