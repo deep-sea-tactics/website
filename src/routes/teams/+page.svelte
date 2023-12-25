@@ -1,44 +1,44 @@
-<svelte:head>
-    <title>Deep Sea Tactics - Teams</title>
-</svelte:head>
-
 <script lang="ts">
 	import Team from './TeamCircle.svelte';
 
 	interface Team {
 		name: string;
 		color: string;
-        image: string;
+		image: string;
 	}
 
 	const teams: Team[] = [
 		{
 			name: 'Software',
 			color: '#3a97ff',
-            image: '/teams/software.jpg'
-		},	
+			image: '/teams/software.jpg'
+		},
 		{
 			name: 'Engineering',
 			color: '#ff4242',
-            image: '/teams/engineering.png'
+			image: '/teams/engineering.png'
 		},
 		{
 			name: 'Electrical',
 			color: '#ffb400',
-            image: '/teams/electrical.png'
+			image: '/teams/electrical.png'
 		},
 		{
 			name: 'Design',
 			color: '#7fb800',
-            image: '/teams/design.png'
+			image: '/teams/design.png'
 		},
 		{
 			name: 'Marketing',
 			color: '#9000B3',
-            image: '/teams/marketing.jpg'
+			image: '/teams/marketing.jpg'
 		}
 	];
 </script>
+
+<svelte:head>
+	<title>Deep Sea Tactics - Teams</title>
+</svelte:head>
 
 <div class="wrapper">
 	<main>
