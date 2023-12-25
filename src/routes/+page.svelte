@@ -79,7 +79,7 @@
 		display: flex;
 		flex-direction: row;
 		gap: .5rem;
-        animation: slideshow 30s linear infinite;
+        animation: slideshow 90s linear infinite;
         width: 200%;
         flex-wrap: nowrap;
 	}
