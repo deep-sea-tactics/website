@@ -86,6 +86,7 @@
         animation: slideshow 30s linear infinite;
         width: 200%;
         flex-wrap: nowrap;
+        margin: 1rem;
 	}
 
     .image {

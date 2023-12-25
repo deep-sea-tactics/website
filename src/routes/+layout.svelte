@@ -11,9 +11,9 @@
 		<img src="horizontal_logo.png" alt="placeholder" />
 	</a>
 	<ul>
-		<li><a href="#">Teams</a></li>
+		<li><a href="/teams">Teams</a></li>
 		<li><a href="/tasks">Tasks</a></li>
-		<li><a href="#">Sponsor</a></li>
+		<li><a href="/sponsor">Sponsor</a></li>
 	</ul>
 </nav>
 
