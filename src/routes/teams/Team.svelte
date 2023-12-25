@@ -5,13 +5,24 @@
 
     export let name: string;
     export let color: string;
+    export let image: string;
 
     let spinning = false;
 
+    let cursorPosition = { x: 0, y: 0 };
+
     let rotation = tweened(0, { duration: 300, easing: sineOut });
+    let opacity = tweened(0, { duration: 300, easing: sineOut });
+
+    $: opacity.set(spinning ? 1 : 0);
+
 	$: desiredRotation = spinning ? $rotation + 5.2 : null;
 	$: desiredRotation && rotation.set(desiredRotation);
 </script>
+
+<svelte:window 
+    on:mousemove={e => cursorPosition = ({ x: e.clientX, y: e.clientY })}
+/>
 
 <a
     style="--bg: {color}; --rotation: {$rotation}deg"
@@ -31,6 +42,12 @@
         </div>
         <img src="/icons/{name.toLowerCase()}.svg" alt="{name} Logo" />
     </div>
+    <img
+        class="imgHover"
+        src="{image}"
+        alt="{name} Display"
+        style="--opacity: {$opacity}; top: {cursorPosition.y}px; left: {cursorPosition.x}px;"
+    />
 </a>
 
 <style>
@@ -73,6 +90,17 @@
 
     a:hover .innerCircle {
         opacity: 0.2;
+    }
+
+    .imgHover {
+        position: fixed;
+        height: 200px;
+        z-index: 1;
+        opacity: var(--opacity);
+        user-select: none;
+        pointer-events: none;
+        top: 0;
+        left: 0;
     }
 
 	.icon img {

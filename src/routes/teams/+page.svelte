@@ -8,28 +8,34 @@
 	interface Team {
 		name: string;
 		color: string;
+        image: string;
 	}
 
 	const teams: Team[] = [
 		{
 			name: 'Engineering',
-			color: '#ff4242'
+			color: '#ff4242',
+            image: '/teams/engineering.png'
 		},
 		{
 			name: 'Electrical',
-			color: '#ffb400'
+			color: '#ffb400',
+            image: '/teams/electrical.png'
 		},
 		{
 			name: 'Software',
-			color: '#3a97ff'
+			color: '#3a97ff',
+            image: '/teams/software.jpg'
 		},
 		{
 			name: 'Design',
-			color: '#7fb800'
+			color: '#7fb800',
+            image: '/teams/design.png'
 		},
 		{
 			name: 'Marketing',
-			color: '#9000B3'
+			color: '#9000B3',
+            image: '/teams/marketing.jpg'
 		}
 	];
 </script>
@@ -37,7 +43,7 @@
 <div class="wrapper">
 	<main>
 		{#each teams as team}
-			<Team name={team.name} color={team.color} />
+			<Team {...team} />
 		{/each}
 	</main>
 </div>
