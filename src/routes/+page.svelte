@@ -1,11 +1,9 @@
 <script lang="ts">
-    const images = import.meta.glob('../images/*', { as: 'url', eager: true })
-
-    console.log(images)
+	const images = import.meta.glob('../images/*', { as: 'url', eager: true });
 </script>
 
 <header>
-    <div />
+	<div />
 	<div class="title">
 		<h2>
 			Innovation with an <span class="water">aquatic</span> edge
@@ -15,10 +13,10 @@
 	<div class="images">
 		<!-- TODO: Alt descriptions, unstretch images -->
 		{#each Object.values(images) as image}
-            <div class="image">
-                <img src={image} alt="placeholder" />
-            </div>
-        {/each}
+			<div class="image">
+				<img src={image} alt="placeholder" />
+			</div>
+		{/each}
 	</div>
 </header>
 
@@ -31,43 +29,62 @@
 </footer>
 
 <style>
-    header {
-        display: flex;
-		height: calc(100vh - 88px);
-        flex-direction: column;
-        justify-content: space-between;
-    }
-    
-    .title {
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        max-width: 1024px;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
+	header {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+        height: calc(100vh - 112px);
+	}
 
-    h2 {
-        max-width: 800px;
-        font-size: 5rem;
-        font-weight: 700;
-    }
+	.title {
+		margin-left: auto;
+		margin-right: auto;
+		display: flex;
+		max-width: 1024px;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
 
-    .water {
-        color: #3B82F6;
-    }
+	h2 {
+		max-width: 800px;
+		font-size: 5rem;
+		font-weight: 700;
+	}
 
-    .images {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        gap: 0.5rem;
-        overflow-x: hidden;
-    }
+	.water {
+		color: var(--accent);
+		transition: filter 0.4s cubic-bezier(0.075, 0.82, 0.165, 1)
+	}
 
-    img {
-        height: 220px;
+	.water:hover {
+        filter: drop-shadow(0px 0px 5px #4444dd);
+
+	}
+
+	.images {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+		gap: .5rem;
+		overflow-x: hidden;
+	}
+
+	img {
+		height: 220px;
 		object-fit: cover;
+        overflow: hidden;
+        border-radius: 1rem;
+        box-sizing: border-box;
+        scale: 1;
+        transition: scale 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+        background-color: var(--accent);
+        background-blend-mode: screen;
+	}
+
+    img:hover {
+        scale: 0.975;
     }
+
+	
 </style>
