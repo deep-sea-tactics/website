@@ -26,11 +26,7 @@
                     <img src={image.src} alt="placeholder" />
                 </div>
             {/each}
-            {#each Object.values(images) as image}
-                <div class="image">
-                    <img src={image.src} alt="placeholder" />
-                </div>
-            {/each}
+           
         </div>
     </div>
 </header>
@@ -83,7 +79,7 @@
 		display: flex;
 		flex-direction: row;
 		gap: .5rem;
-        animation: slideshow 30s linear infinite;
+        animation: slideshow 90s linear infinite;
         width: 200%;
         flex-wrap: nowrap;
         margin: 1rem;
