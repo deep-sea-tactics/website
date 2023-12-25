@@ -5,6 +5,7 @@
 
     let cursor = { x: 0, y: 0 }
     let cursorPosition = spring({ x: 0, y: 0 });
+    let clicking = false;
     const effectTags =  ["a", "img", "button"];
 
 	const render: Render = ({ context, width, height }) => {
@@ -16,7 +17,7 @@
         // draw a circle at the cursor position - cursor follower
         context.beginPath();
         context.lineWidth = 2;
-        context.arc($cursorPosition.x, $cursorPosition.y, 10, 0, 2 * Math.PI);
+        context.arc($cursorPosition.x, $cursorPosition.y, clicking ? 12 : 10, 0, 2 * Math.PI);
         context.stroke();
         
         const overClickableElement = element && effectTags.includes(element.tagName.toLowerCase());
@@ -29,10 +30,14 @@
 	};
 </script>
 
-<svelte:window on:mousemove={e => {
-    cursor = ({ x: e.clientX, y: e.clientY })
-    cursorPosition.set(cursor)
-}} />
+<svelte:window 
+    on:mousemove={e => {
+        cursor = ({ x: e.clientX, y: e.clientY })
+        cursorPosition.set(cursor)
+    }} 
+    on:mousedown={() => clicking = true}
+    on:mouseup={() => clicking = false}
+/>
 
 <div aria-hidden="true">
     <Canvas autoplay>

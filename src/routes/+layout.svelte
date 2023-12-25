@@ -65,6 +65,7 @@
 		filter: invert(100%);
 		height: 80px;
         scale: 1;
+		transition: scale 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
 
     img:hover {
