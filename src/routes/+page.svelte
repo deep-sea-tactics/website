@@ -4,7 +4,7 @@
         width: number;
     }
 
-	const images: Image[] = Object.values(import.meta.glob('../images/*', { as: 'url', eager: true }))
+	const images: Image[] = Object.values(import.meta.glob('../images/home/*', { as: 'url', eager: true }))
         .map((url) => ({ src: url, width: 0 }));
 
     $: widthSum = images.reduce((acc, cur) => acc + cur.width, 0);

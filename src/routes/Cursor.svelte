@@ -1,5 +1,5 @@
 <script lang="ts" context="module">
-    
+
 </script>
 
 <script lang="ts">
@@ -11,8 +11,8 @@
     let clicking = false;
     const effectTags =  ["a", "img", "button"];
 
-	const render: Render = ({ context, width, height }) => {
-        const element = document.elementFromPoint(cursor.x, cursor.y);
+	const render: Render = ({ context }) => {
+        const elements = document.elementsFromPoint(cursor.x, cursor.y);
 
         context.fillStyle = '#3b82f6';
         context.strokeStyle = '#3b82f6';
@@ -23,7 +23,7 @@
         context.arc($cursorPosition.x, $cursorPosition.y, clicking ? 12 : 10, 0, 2 * Math.PI);
         context.stroke();
         
-        const overClickableElement = element && effectTags.includes(element.tagName.toLowerCase());
+        const overClickableElement = elements.some(element => effectTags.includes(element.tagName.toLowerCase()));
         const size = overClickableElement ? 8 : 6;
 
         // draw a circle at the cursor position - cursor
