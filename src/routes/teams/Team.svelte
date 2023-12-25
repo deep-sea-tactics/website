@@ -95,12 +95,13 @@
     .imgHover {
         position: fixed;
         height: 200px;
-        z-index: 1;
+        z-index: -2;
         opacity: var(--opacity);
         user-select: none;
         pointer-events: none;
         top: 0;
         left: 0;
+        filter: brightness(0.5);
     }
 
 	.icon img {
