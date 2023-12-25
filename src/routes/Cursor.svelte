@@ -1,10 +1,27 @@
 <script lang="ts" context="module">
+    /** 
+     * If any of these symbols are true,
+     * the cursor will be hidden.
+    */
+    export const symbolMap = writable<Record<symbol, boolean>>({});
 
+    export const shouldBeHidden = derived(
+        symbolMap,
+        (map) => Object.getOwnPropertySymbols(map).some((symbol) => map[symbol])
+    );
+
+    const opacity = tweened(0, { duration: 300, easing: cubicInOut });
+
+    shouldBeHidden.subscribe((hidden) => opacity.set(hidden ? 0 : 1));
 </script>
 
 <script lang="ts">
 	import { Canvas, Layer, type Render } from 'svelte-canvas';
-    import { spring } from 'svelte/motion';
+	import { cubicInOut } from 'svelte/easing';
+    import { spring, tweened } from 'svelte/motion';
+	import { derived, writable } from 'svelte/store';
+
+    let hasMoved = false;
 
     let cursor = { x: 0, y: 0 }
     let cursorPosition = spring({ x: 0, y: 0 });
@@ -12,7 +29,12 @@
     const effectTags =  ["a", "img", "button"];
 
 	const render: Render = ({ context }) => {
+        if (!hasMoved) return;
+        if ($shouldBeHidden) return;
+
         const elements = document.elementsFromPoint(cursor.x, cursor.y);
+
+        context.globalAlpha = $opacity;
 
         context.fillStyle = '#3b82f6';
         context.strokeStyle = '#3b82f6';
@@ -37,6 +59,7 @@
     on:mousemove={e => {
         cursor = ({ x: e.clientX, y: e.clientY })
         cursorPosition.set(cursor)
+        hasMoved = true;
     }} 
     on:mousedown={() => clicking = true}
     on:mouseup={() => clicking = false}
@@ -49,9 +72,10 @@
 </div>
 
 <style>
-    :global(*) {
-        /* TODO: show cursor if js disabled */
-        cursor: none;
+    @media (any-hover: hover) {
+        :global(*) {
+            cursor: none;
+        }
     }
 
     div :global(canvas) {

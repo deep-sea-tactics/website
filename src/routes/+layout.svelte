@@ -8,7 +8,7 @@
 
 <nav>
 	<a href="/" class="mainLink">
-		<img src="horizontal_logo.png" alt="Deep Sea Tactics Logo" />
+		<img src="/horizontal_logo.png" alt="Deep Sea Tactics Logo" />
 	</a>
 	<ul>
 		<li><a href="/teams">Teams</a></li>

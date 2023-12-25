@@ -2,12 +2,24 @@
 	import { Circle } from "svelte-text-path";
 	import { sineOut } from "svelte/easing";
 	import { tweened } from "svelte/motion";
+    import { symbolMap } from "../Cursor.svelte";
+	import { onDestroy } from "svelte";
 
     export let name: string;
     export let color: string;
     export let image: string;
 
+    const cursorSymbol = Symbol(`team-cursor-${name}`);
+
+    let width = 0;
+    let height = 0;
+
+    $: ratio = width / height;
+    $: properImageWidth = 200 * ratio;
+
     let spinning = false;
+
+    $: symbolMap.update((map) => ({ ...map, [cursorSymbol]: spinning }));
 
     let cursorPosition = { x: 0, y: 0 };
 
@@ -18,6 +30,13 @@
 
 	$: desiredRotation = spinning ? $rotation + 5.2 : null;
 	$: desiredRotation && rotation.set(desiredRotation);
+
+    onDestroy(() => {
+        symbolMap.update((map) => {
+            delete map[cursorSymbol];
+            return map;
+        });
+    });
 </script>
 
 <svelte:window 
@@ -40,13 +59,18 @@
         <div class="iconBG">
 
         </div>
-        <img src="/icons/{name.toLowerCase()}.svg" alt="{name} Logo" />
+        <img
+            src="/icons/{name.toLowerCase()}.svg"
+            alt="{name} Logo"
+        />
     </div>
     <img
         class="imgHover"
         src="{image}"
         alt="{name} Display"
-        style="--opacity: {$opacity}; top: {cursorPosition.y}px; left: {cursorPosition.x}px;"
+        bind:naturalWidth={width}
+        bind:naturalHeight={height}
+        style="--opacity: {$opacity}; top: {cursorPosition.y - 100}px; left: {cursorPosition.x - properImageWidth / 2}px;"
     />
 </a>
 

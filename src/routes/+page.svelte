@@ -23,12 +23,12 @@
             <!-- TODO: Alt descriptions, unstretch images -->
             {#each Object.values(images) as image}
                 <div class="image" bind:clientWidth={image.width}>
-                    <img src={image.src} alt="placeholder" />
+                    <img src={image.src} />
                 </div>
             {/each}
             {#each Object.values(images) as image}
                 <div class="image">
-                    <img src={image.src} alt="placeholder" />
+                    <img src={image.src} />
                 </div>
             {/each}
         </div>

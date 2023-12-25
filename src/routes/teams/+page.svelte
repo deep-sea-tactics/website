@@ -3,7 +3,7 @@
 </svelte:head>
 
 <script lang="ts">
-	import Team from './Team.svelte';
+	import Team from './TeamCircle.svelte';
 
 	interface Team {
 		name: string;
@@ -13,6 +13,11 @@
 
 	const teams: Team[] = [
 		{
+			name: 'Software',
+			color: '#3a97ff',
+            image: '/teams/software.jpg'
+		},	
+		{
 			name: 'Engineering',
 			color: '#ff4242',
             image: '/teams/engineering.png'
@@ -21,11 +26,6 @@
 			name: 'Electrical',
 			color: '#ffb400',
             image: '/teams/electrical.png'
-		},
-		{
-			name: 'Software',
-			color: '#3a97ff',
-            image: '/teams/software.jpg'
 		},
 		{
 			name: 'Design',
