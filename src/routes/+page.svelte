@@ -35,15 +35,11 @@
 		</div>
 	</div>
 </header>
-
+<!-- WIP
 <main>
-	<!-- TODO: Our main content goes here -->
+	<p>We make ROVs for the MATE competition, and we meet every Tuesday at 2 PM.</p>
 </main>
-
-<footer>
-	<!-- TODO: Our footer content goes here -->
-</footer>
-
+-->
 <style>
 	header {
 		display: flex;
