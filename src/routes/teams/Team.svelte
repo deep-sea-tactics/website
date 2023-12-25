@@ -21,7 +21,7 @@
 >
     <div class="circle">
         <Circle>
-            <tspan fill="white">{@html name + "&nbsp;".repeat(20) + name + "&nbsp;".repeat(20)}</tspan>
+            <tspan fill="white">{@html name + "&nbsp;".repeat(25 - name.length) + name + "&nbsp;".repeat(25 - name.length)}</tspan>
         </Circle>
     </div>
     <div class="icon" >
