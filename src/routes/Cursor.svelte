@@ -1,4 +1,7 @@
-<!-- todo: delete entire component -->
+<script lang="ts" context="module">
+    
+</script>
+
 <script lang="ts">
 	import { Canvas, Layer, type Render } from 'svelte-canvas';
     import { spring } from 'svelte/motion';

@@ -23,8 +23,9 @@
         <Circle>
             <tspan fill="white">{@html name + "&nbsp;".repeat(25 - name.length) + name + "&nbsp;".repeat(25 - name.length)}</tspan>
         </Circle>
+        <div class="innerCircle" />
     </div>
-    <div class="icon" >
+    <div class="icon">
         <div class="iconBG">
 
         </div>
@@ -54,6 +55,25 @@
 		justify-content: center;
 		transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
 	}
+
+    .innerCircle {
+        width: 80%;
+        height: 80%;
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        transform: translate(10%, 10%);
+        box-sizing: initial;
+        border: 5px solid var(--bg);
+        z-index: -1;
+        opacity: 0;
+        transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+    }
+
+    a:hover .innerCircle {
+        opacity: 0.2;
+    }
 
 	.icon img {
 		width: 25%;
