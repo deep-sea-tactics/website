@@ -1,17 +1,12 @@
 <script lang="ts">
     export let teamName: string;
-	export let weStatements: string[] = [];
 	export let mediaURLs: string[] = [];
 </script>
 
 <main>
     <div class="information">
         <h2>{teamName}</h2>
-        <ul>
-            {#each weStatements as weStatement}
-                <li>{weStatement}</li>
-            {/each}
-        </ul>
+        <slot />
     </div>
     <!-- todo implement vertical gallery -->
     <div class="gallery">
