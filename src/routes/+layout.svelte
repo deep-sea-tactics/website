@@ -1,5 +1,4 @@
 <script lang="ts">
-	import '../app.pcss';
 	import '@fontsource/poppins/400.css';
 	import '@fontsource/poppins/500.css';
 	import '@fontsource/poppins/700.css';
@@ -25,6 +24,7 @@
 
 {#key data.pathname}
 	<div
+		class="container"
 		in:fly={{ easing: cubicOut, y: 10, duration: 300, delay: 400 }}
 		out:fly={{ easing: cubicIn, y: -10, duration: 300 }}
 	>
@@ -42,6 +42,11 @@
 		font-family: 'Poppins', sans-serif;
 		background-color: var(--bg);
 		color: var(--text);
+		height: 100vh;
+	}
+
+	.container {
+		height: 100%;
 	}
 
 	:global(*) {

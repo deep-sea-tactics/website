@@ -52,8 +52,10 @@
 	.wrapper {
 		display: flex;
 		flex-direction: column;
+		justify-content: center;
 		align-items: center;
 		margin-bottom: 3rem;
+		height: calc(100% - 112px);
 	}
 
 	main {
@@ -62,7 +64,6 @@
 		flex-direction: row;
 		flex-wrap: wrap;
 		justify-content: center;
-		max-width: calc((310px * 3) + 6rem + (5px * 6));
 		letter-spacing: 0.2rem;
 	}
 </style>

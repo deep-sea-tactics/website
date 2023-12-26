@@ -34,6 +34,7 @@
 			{/each}
 		</div>
 	</div>
+	<div class="bottom" />
 </header>
 <!-- WIP
 <main>
@@ -41,6 +42,16 @@
 </main>
 -->
 <style>
+	.bottom {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 50px;
+		background-color: var(--accent);
+		z-index: -1;
+	}
+
 	header {
 		display: flex;
 		flex-direction: column;

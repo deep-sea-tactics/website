@@ -6,22 +6,18 @@
 	import TeamLayout from '../TeamLayout.svelte';
 </script>
 
-<TeamLayout
-    teamName="Software"
-	mediaURLs={[RPIConfig, DSTKitty, RobotInWater]}
->
+<TeamLayout teamName="Software" mediaURLs={[RPIConfig, DSTKitty, RobotInWater]}>
 	<p>We make sure the ROV can do its job, and we carry out the mission.</p>
 	<ul>
 		<li>
 			Simulations for e2e testing with <a href="https://playwright.dev/">Playwright</a>,
 			<a href="https://threlte.xyz/">Threlte</a>, and <a href="https://rapier.rs/">Rapier</a>
 		</li>
-		<li>
-			Thruster linearization for easy pilot use
-		</li>
+		<li>Thruster linearization for easy pilot use</li>
 		<li>
 			Unified codebase across repositories in
-			<a href="https://www.typescriptlang.org/">TypeScript</a> & <a href="https://svelte.dev/">Svelte</a>
+			<a href="https://www.typescriptlang.org/">TypeScript</a> &
+			<a href="https://svelte.dev/">Svelte</a>
 		</li>
 		<li>Vector control stabilization</li>
 		<li><a href="https://github.com/deep-sea-tactics/">Source-available across the board</a></li>
