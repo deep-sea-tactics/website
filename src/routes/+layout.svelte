@@ -4,6 +4,10 @@
 	import '@fontsource/poppins/500.css';
 	import '@fontsource/poppins/700.css';
 	import Cursor from './Cursor.svelte';
+	import { fly } from 'svelte/transition';
+	import { cubicIn, cubicOut } from 'svelte/easing';
+
+	export let data;
 </script>
 
 <nav>
@@ -19,7 +23,14 @@
 
 <Cursor />
 
-<slot />
+{#key data.pathname}
+	<div
+		in:fly={{ easing: cubicOut, y: 10, duration: 300, delay: 400 }}
+		out:fly={{ easing: cubicIn, y: -10, duration: 300 }}
+	>
+		<slot />
+	</div>
+{/key}
 
 <style>
 	:global(body) {
