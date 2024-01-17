@@ -1,10 +1,4 @@
 <script lang="ts">
-	// Diamond Sponsors ($5,000+)
-	// Gold Sponsors ($2,500+)
-	// Silver Sponsors ($1,000+)
-	// Bronze Sponsors ($500+)
-	// Honorable Mentions ($100+)
-
 	interface SponsorCategory {
 		name: string;
 		money: number;
