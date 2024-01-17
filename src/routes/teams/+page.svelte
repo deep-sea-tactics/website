@@ -54,8 +54,8 @@
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		flex-wrap: wrap;
 		margin-bottom: 3rem;
-		height: calc(100% - 112px);
 	}
 
 	main {
@@ -65,5 +65,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		letter-spacing: 0.2rem;
+		height: calc(100% - 112px);
+		width: calc(310px * 3 + 2rem * 3 + 10px * 3 + 100px);
 	}
 </style>

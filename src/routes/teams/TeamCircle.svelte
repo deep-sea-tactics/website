@@ -79,9 +79,9 @@
 		margin: 1rem;
 		border: 5px solid var(--bg);
 		border-radius: 50%;
-		width: 310px;
-		height: 310px;
-		aspect-ratio: 1 1/ 1;
+		max-width: 310px;
+		min-width: 310px;
+		aspect-ratio: 1 / 1;
 	}
 
 	.icon {
