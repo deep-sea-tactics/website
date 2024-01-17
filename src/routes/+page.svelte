@@ -14,9 +14,9 @@
 <header>
 	<div />
 	<div class="title">
-		<h2>
+		<h1>
 			Innovation with an <span class="water">aquatic</span> edge
-		</h2>
+		</h1>
 	</div>
 
 	<div class="images-container">
@@ -36,11 +36,10 @@
 	</div>
 	<div class="bottom" />
 </header>
-<!-- WIP
 <main>
-	<p>We make ROVs for the MATE competition, and we meet every Tuesday at 2 PM.</p>
+	<h2>We push the boundaries of marine innovation.</h2>
 </main>
--->
+
 <style>
 	.bottom {
 		position: absolute;
@@ -69,7 +68,7 @@
 		text-align: center;
 	}
 
-	h2 {
+	h1 {
 		max-width: 800px;
 		font-size: 5rem;
 		font-weight: 700;
@@ -127,5 +126,17 @@
 		100% {
 			transform: translateX(var(--widthSum, 0));
 		}
+	}
+
+	main {
+		margin: 2rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: calc(100% - 4rem);
+	}
+
+	h2 {
+		font-size: 3rem;
 	}
 </style>
