@@ -48,11 +48,6 @@
 			effectTags.includes(element.tagName.toLowerCase())
 		);
 		const size = overClickableElement ? 8 : 6;
-
-		// draw a circle at the cursor position - cursor
-		context.beginPath();
-		context.arc(cursor.x, cursor.y, size, 0, 2 * Math.PI);
-		context.fill();
 	};
 </script>
 
@@ -73,12 +68,6 @@
 </div>
 
 <style>
-	@media (any-hover: hover) {
-		:global(*) {
-			cursor: none;
-		}
-	}
-
 	div :global(canvas) {
 		filter: drop-shadow(0px 0px 5px #4444dd);
 	}
