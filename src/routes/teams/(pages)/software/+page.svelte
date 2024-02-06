@@ -7,7 +7,7 @@
 </script>
 
 <TeamLayout teamName="Software" mediaURLs={[RPIConfig, DSTKitty, RobotInWater]}>
-	<p>We make sure the ROV can do its job, and we carry out the mission.</p>
+	<p>We make sure the ROV can do its job by programming it to do specific tasks, and we carry out the mission.</p>
 	<ul>
 		<li>
 			Simulations for e2e testing with <a href="https://playwright.dev/">Playwright</a>,
