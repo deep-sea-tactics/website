@@ -23,6 +23,7 @@
 		name: "Bronze Sponsors",
 		money: 500,
 		color: "#FC7753"
+		// #FC7753
 	}, {
 		name: "Honorable Mentions",
 		money: 100,

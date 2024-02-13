@@ -46,7 +46,7 @@
 	}
 
 	.container {
-		height: 100%;
+		height: 85%;
 	}
 
 	:global(*) {

@@ -1,13 +1,12 @@
 <script lang="ts">
 	// placeholder images, will be replaced #l8er
 	import RPIConfig from '../../../../images/home/rpi-config.jpg?enhanced';
-	import DSTKitty from '../../../../images/home/dst-kitty.jpg?enhanced';
-	import RobotInWater from '../../../../images/home/robot-in-water.jpg?enhanced';
 	import TeamLayout from '../TeamLayout.svelte';
 </script>
 
-<TeamLayout teamName="Software" mediaURLs={[RPIConfig, DSTKitty, RobotInWater]}>
-	<p>We make sure the ROV can do its job, and we carry out the mission.</p>
+<TeamLayout teamName="Software" mediaURLs={[RPIConfig]}>
+	<br>
+	<p>We make sure the ROV can do its job, and we are responsible for carrying out the mission.</p>
 	<ul>
 		<li>
 			Simulations for e2e testing with <a href="https://playwright.dev/">Playwright</a>,

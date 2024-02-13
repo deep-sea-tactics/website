@@ -5,7 +5,8 @@
 
 <main>
 	<div class="information">
-		<h2>{teamName}</h2>
+		
+		<h1>{teamName}</h1>
 		<slot />
 	</div>
 	<!-- todo implement vertical gallery -->
@@ -26,8 +27,12 @@
 		margin: 0 1rem;
 	}
 
-	h2 {
-		text-align: center;
+	h1 {
+		text-align: left;
+		font-style: italic;
+		
+		
+		
 	}
 
 	.information {
@@ -43,11 +48,11 @@
 		width: 100%;
 		height: auto;
 		border-radius: 1rem;
-		scale: 1;
+		scale: .8;
 		transition: scale 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
 
 	.image:hover {
-		scale: 0.97;
+		scale: .85;
 	}
 </style>
