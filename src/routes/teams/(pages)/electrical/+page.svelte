@@ -6,24 +6,23 @@
 
 <TeamLayout teamName="Electrical" mediaURLs={[RobotInWater]}>
 	<br>
-	<p><h3>We make sure the ROV can do its job, and we carry out the mission.</h3>
+	<p><h3>We are in charge of...</h3>
 	<ul>
 		<li>
-			Simulations for e2e testing with <a href="https://playwright.dev/">Playwright</a>,
-			<a href="https://threlte.xyz/">Threlte</a>, and <a href="https://rapier.rs/">Rapier</a>
+			Using circuit boards
 		</li>
-		<li>Thruster linearization for easy pilot use</li>
 		<li>
-			Unified codebase across repositories in
-			<a href="https://www.typescriptlang.org/">TypeScript</a> &
-			<a href="https://svelte.dev/">Svelte</a>
+			Cable managing / wiring different cables on the robot
 		</li>
-		<li>Vector control stabilization</li>
-		<li><a href="https://github.com/deep-sea-tactics/">Source-available across the board</a></li>
-		<li>Giving back with Open Source R&D</li>
-		<li>Helping our local community with free programming lessons</li>
+		<li>
+		
+		</li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
 	</ul>
-	<p>Because our team asks one question: How can we help?</p>
+	<p>Our goal is to</p>
 </TeamLayout>
 
 <style>

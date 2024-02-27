@@ -6,24 +6,21 @@
 
 <TeamLayout teamName="Marketing" mediaURLs={[kitty]}>
 	<br>
-	<p><h3>We are responsible for...</h3>
+	<p><h3>We are in charge of...</h3>
 	<ul>
 		<li>
-			Simulations for e2e testing with <a href="https://playwright.dev/">Playwright</a>,
-			<a href="https://threlte.xyz/">Threlte</a>, and <a href="https://rapier.rs/">Rapier</a>
+			Sponsorships
 		</li>
-		<li>Thruster linearization for easy pilot use</li>
+		<li>Financing and making sure we meet our budget
 		<li>
-			Unified codebase across repositories in
-			<a href="https://www.typescriptlang.org/">TypeScript</a> &
-			<a href="https://svelte.dev/">Svelte</a>
+			Making and maintaining a budget
 		</li>
-		<li>Vector control stabilization</li>
-		<li><a href="https://github.com/deep-sea-tactics/">Source-available across the board</a></li>
-		<li>Giving back with Open Source R&D</li>
-		<li>Helping our local community with free programming lessons</li>
+		<li>Monitoring team safety</li>
+		<li>Documenting team progress</li>
+		<li>Managing social media</li>
+		<li>Presenting the team during events</li>
 	</ul>
-	<p>Because our team asks one question: How can we help?</p>
+	<p><h4>Our goal is to</h4>
 </TeamLayout>
 
 <style>

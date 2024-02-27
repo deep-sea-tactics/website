@@ -6,24 +6,26 @@
 
 <TeamLayout teamName="Engineering" mediaURLs={[Fun]}>
 	<br>
-	<p><h3>We are responsible for...</h3>
+	<p><h3>We are in charge of...</h3>
 	<ul>
 		<li>
-			Simulations for e2e testing with <a href="https://playwright.dev/">Playwright</a>,
-			<a href="https://threlte.xyz/">Threlte</a>, and <a href="https://rapier.rs/">Rapier</a>
+			Configuring the mechanical parts of the robot
 		</li>
-		<li>Thruster linearization for easy pilot use</li>
 		<li>
-			Unified codebase across repositories in
-			<a href="https://www.typescriptlang.org/">TypeScript</a> &
-			<a href="https://svelte.dev/">Svelte</a>
+			Making the robot functional
 		</li>
-		<li>Vector control stabilization</li>
-		<li><a href="https://github.com/deep-sea-tactics/">Source-available across the board</a></li>
-		<li>Giving back with Open Source R&D</li>
-		<li>Helping our local community with free programming lessons</li>
+			
+		<li>
+			Working with rasperry PI and/or Arudino
+		</li>
+		<li>
+			The motors of the robot and the Float
+		</li>
+		<li></li>
+		<li></li>
+		<li></li>
 	</ul>
-	<p>Because our team asks one question: How can we help?</p>
+	<p>Our goal is to</p>
 </TeamLayout>
 
 <style>
