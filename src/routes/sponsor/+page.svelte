@@ -6,30 +6,35 @@
 		textColor?: string;
 	}
 
-	const sponsorCategories: SponsorCategory[] = [{
-		name: "Diamond Sponsors",
-		money: 5000,
-		color: "#3B82F6"
-	}, {
-		name: "Gold Sponsors",
-		money: 2500,
-		color: "#E8C547"
-	}, {
-		name: "Silver Spnsors",
-		money: 1000,
-		color: "#C2DFE3",
-		textColor: "black",
-	}, {
-		name: "Bronze Sponsors",
-		money: 500,
-		color: "#FC7753"
-		// #FC7753
-	}, {
-		name: "Honorable Mentions",
-		money: 100,
-		color: "#717568"
-	}]
-
+	const sponsorCategories: SponsorCategory[] = [
+		{
+			name: 'Diamond Sponsors',
+			money: 5000,
+			color: '#3B82F6'
+		},
+		{
+			name: 'Gold Sponsors',
+			money: 2500,
+			color: '#E8C547'
+		},
+		{
+			name: 'Silver Spnsors',
+			money: 1000,
+			color: '#C2DFE3',
+			textColor: 'black'
+		},
+		{
+			name: 'Bronze Sponsors',
+			money: 500,
+			color: '#FC7753'
+			// #FC7753
+		},
+		{
+			name: 'Honorable Mentions',
+			money: 100,
+			color: '#717568'
+		}
+	];
 </script>
 
 <svelte:head>
@@ -40,14 +45,18 @@
 
 <main>
 	{#each sponsorCategories as sponsorCategory}
-		<div class="sponsorCategory" style="--color: {sponsorCategory.color}; --textColor: {sponsorCategory.textColor};">
+		<div
+			class="sponsorCategory"
+			style="--color: {sponsorCategory.color}; --textColor: {sponsorCategory.textColor};"
+		>
 			<h2>{sponsorCategory.name} - ${sponsorCategory.money}</h2>
 		</div>
 	{/each}
 </main>
 
 <style>
-	h1, h2 {
+	h1,
+	h2 {
 		text-align: center;
 	}
 
@@ -58,7 +67,7 @@
 	h2 {
 		font-size: 3rem;
 	}
-	
+
 	main {
 		display: flex;
 		flex-direction: column;

@@ -5,16 +5,13 @@
 </script>
 
 <TeamLayout teamName="Design" mediaURLs={[Team]}>
-	<br>
-	<p><h3>We are in charge of...</h3>
+	<br />
+	<p></p>
+	<h3>We are in charge of...</h3>
 	<ul>
-		<li>
-			Designing the robot
-		</li>
+		<li>Designing the robot</li>
 		<li>Designing props</li>
-		<li>
-		
-		</li>
+		<li></li>
 		<li></li>
 		<li></li>
 		<li></li>

@@ -5,22 +5,15 @@
 </script>
 
 <TeamLayout teamName="Engineering" mediaURLs={[Fun]}>
-	<br>
-	<p><h3>We are in charge of...</h3>
+	<br />
+	<p></p>
+	<h3>We are in charge of...</h3>
 	<ul>
-		<li>
-			Configuring the mechanical parts of the robot
-		</li>
-		<li>
-			Making the robot functional
-		</li>
-			
-		<li>
-			Working with rasperry PI and/or Arudino
-		</li>
-		<li>
-			The motors of the robot and the Float
-		</li>
+		<li>Configuring the mechanical parts of the robot</li>
+		<li>Making the robot functional</li>
+
+		<li>Working with rasperry PI and/or Arudino</li>
+		<li>The motors of the robot and the Float</li>
 		<li></li>
 		<li></li>
 		<li></li>

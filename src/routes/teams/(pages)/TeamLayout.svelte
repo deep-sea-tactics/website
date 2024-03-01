@@ -5,7 +5,6 @@
 
 <main>
 	<div class="information">
-		
 		<h1>{teamName}</h1>
 		<slot />
 	</div>
@@ -30,9 +29,6 @@
 	h1 {
 		text-align: left;
 		font-style: italic;
-		
-		
-		
 	}
 
 	.information {
@@ -48,11 +44,11 @@
 		width: 100%;
 		height: auto;
 		border-radius: 1rem;
-		scale: .8;
+		scale: 0.8;
 		transition: scale 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 	}
 
 	.image:hover {
-		scale: .85;
+		scale: 0.85;
 	}
 </style>

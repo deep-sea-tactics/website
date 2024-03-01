@@ -5,18 +5,13 @@
 </script>
 
 <TeamLayout teamName="Electrical" mediaURLs={[RobotInWater]}>
-	<br>
-	<p><h3>We are in charge of...</h3>
+	<br />
+	<p></p>
+	<h3>We are in charge of...</h3>
 	<ul>
-		<li>
-			Using circuit boards
-		</li>
-		<li>
-			Cable managing / wiring different cables on the robot
-		</li>
-		<li>
-		
-		</li>
+		<li>Using circuit boards</li>
+		<li>Cable managing / wiring different cables on the robot</li>
+		<li></li>
 		<li></li>
 		<li></li>
 		<li></li>
