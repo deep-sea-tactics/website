@@ -11,22 +11,14 @@
 
 	const cursorSymbol = Symbol(`team-cursor-${name}`);
 
-	let width = 0;
-	let height = 0;
-
-	$: ratio = width / height;
-	$: properImageWidth = 200 * ratio;
-
 	let spinning = false;
 
 	$: symbolMap.update((map) => ({ ...map, [cursorSymbol]: spinning }));
 
-	let cursorPosition = { x: 0, y: 0 };
-
 	let rotation = tweened(0, { duration: 300, easing: sineOut });
 	let opacity = tweened(0, { duration: 300, easing: sineOut });
 
-	$: opacity.set(spinning ? 1 : 0);
+	$: opacity.set(spinning ? 0.7 : 0.3);
 
 	$: desiredRotation = spinning ? $rotation + 5.2 : null;
 	$: desiredRotation && rotation.set(desiredRotation);
@@ -38,8 +30,6 @@
 		});
 	});
 </script>
-
-<svelte:window on:mousemove={(e) => (cursorPosition = { x: e.clientX, y: e.clientY })} />
 
 <a
 	style="--bg: {color}; --rotation: {$rotation}deg"
@@ -66,10 +56,7 @@
 		class="imgHover"
 		src={image}
 		alt="{name} Display"
-		bind:naturalWidth={width}
-		bind:naturalHeight={height}
-		style="--opacity: {$opacity}; top: {cursorPosition.y - 100}px; left: {cursorPosition.x -
-			properImageWidth / 2}px;"
+		style="--opacity: {$opacity};"
 	/>
 </a>
 
@@ -116,8 +103,8 @@
 	}
 
 	.imgHover {
-		position: fixed;
-		height: 200px;
+		position: absolute;
+		height: 300px;
 		z-index: -2;
 		opacity: var(--opacity);
 		user-select: none;
@@ -125,6 +112,9 @@
 		top: 0;
 		left: 0;
 		filter: brightness(0.5);
+		aspect-ratio: 1 / 1;
+		object-fit: cover;
+		clip-path: circle(50%);
 	}
 
 	.icon img {

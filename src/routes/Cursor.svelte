@@ -47,7 +47,6 @@
 		const overClickableElement = elements.some((element) =>
 			effectTags.includes(element.tagName.toLowerCase())
 		);
-		const size = overClickableElement ? 8 : 6;
 	};
 </script>
 
