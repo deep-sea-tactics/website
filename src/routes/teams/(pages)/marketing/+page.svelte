@@ -20,9 +20,3 @@
 	<p></p>
 	<h4>Our goal is to</h4>
 </TeamLayout>
-
-<style>
-	a {
-		color: var(--accent);
-	}
-</style>

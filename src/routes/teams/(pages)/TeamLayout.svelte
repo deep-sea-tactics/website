@@ -28,7 +28,6 @@
 
 	h1 {
 		text-align: left;
-		font-style: italic;
 	}
 
 	.information {

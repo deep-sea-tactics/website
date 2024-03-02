@@ -16,9 +16,6 @@
 	$: symbolMap.update((map) => ({ ...map, [cursorSymbol]: spinning }));
 
 	let rotation = tweened(0, { duration: 300, easing: sineOut });
-	let opacity = tweened(0, { duration: 300, easing: sineOut });
-
-	$: opacity.set(spinning ? 0.7 : 0.3);
 
 	$: desiredRotation = spinning ? $rotation + 5.2 : null;
 	$: desiredRotation && rotation.set(desiredRotation);
@@ -56,11 +53,10 @@
 		class="imgHover"
 		src={image}
 		alt="{name} Display"
-		style="--opacity: {$opacity};"
 	/>
 </a>
 
-<style>
+<style lang="scss">
 	a {
 		position: relative;
 		margin: 1rem;
@@ -102,11 +98,16 @@
 		opacity: 0.2;
 	}
 
+	a:hover .imgHover {
+		opacity: 0.7;
+		transform: scale(1.2);
+		clip-path: circle(calc(50% / 1.2));
+	}
+
 	.imgHover {
 		position: absolute;
 		height: 300px;
 		z-index: -2;
-		opacity: var(--opacity);
 		user-select: none;
 		pointer-events: none;
 		top: 0;
@@ -115,11 +116,13 @@
 		aspect-ratio: 1 / 1;
 		object-fit: cover;
 		clip-path: circle(50%);
+		opacity: 0.3;
+		transform: scale(1);
+		transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
 	}
 
 	.icon img {
 		width: 25%;
-
 		position: relative;
 	}
 	.iconBG {

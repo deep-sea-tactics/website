@@ -15,7 +15,7 @@
 		</li>
 		<li>Thruster linearization for easy pilot use</li>
 		<li>
-			Unifiying codebase across repositories in
+			Unifying codebase across repositories in
 			<a href="https://www.typescriptlang.org/">TypeScript</a> &
 			<a href="https://svelte.dev/">Svelte</a>
 		</li>
@@ -23,8 +23,6 @@
 		<li><a href="https://github.com/deep-sea-tactics/">Source-available across the board</a></li>
 		<li>Giving back with Open Source R&D</li>
 		<li>Helping our local community with free programming lessons</li>
-
-		<comment> Theme color: #4285f4ff</comment>
 	</ul>
 	<p></p>
 	<h4>
