@@ -10,13 +10,13 @@
 	const events: Event[] = [
 		{
 			title: 'Regional Competiton',
-			description: 'Compete in the regional MATE competition at Old Dominion University.',
-			date: new Date(new Date().setFullYear(2024, 4, 13))
+			description: 'Compete in the regional MATE competition in Villanova, Pennsylvania.',
+			date: new Date(new Date().setFullYear(2026, 5, 16))
 		},
 		{
 			title: 'International Competiton',
-			description: 'Compete in the international MATE competition in Longmont, Colorado.',
-			date: new Date(new Date().setFullYear(2024, 5, 22))
+			description: 'Compete in the international MATE competition in Vancouver, Canada.',
+			date: new Date(new Date().setFullYear(2026, 6, 22))
 		}
 	];
 	let getDateString = (date: Date) =>

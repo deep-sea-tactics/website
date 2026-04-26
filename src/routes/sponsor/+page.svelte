@@ -13,25 +13,21 @@
 	const sponsors: Sponsor[] = [
 		{
 			tier: 'Diamond',
-			money: '$5,000+',
+			money: '2,500+',
 		},
 		{
 			tier: 'Gold',
-			money: '$2,500+',
+			money: '$1,500+',
 		},
 		{
 			tier: 'Silver',
-			money: '$1,000+',
+			money: '$750+',
 		},
 		{
 			tier: 'Bronze',
-			money: '$500+',
+			money: '$250+',
 		},
-		{
-			tier: 'Honorable Mentions',
-			money: '$100+',
-			noSponsor: true,
-		},
+		
 	];
 </script>
 
