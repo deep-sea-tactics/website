@@ -3,7 +3,7 @@
 	<p>
 		Despite our ability to make it to nationals, we operate on a tight budget that operates
 		year-by-year. This restricts our ability to purchase new equipment, travel to competitions, and
-		have room to innovate, crippling our ability to compete with other teams. We need your help to
+		have room to innovate, limiting our ability to compete with other teams. We need your help to
 		continue our mission of inspiring the next generation of engineers and scientists in our
 		community.
 	</p>

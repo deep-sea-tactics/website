@@ -14,7 +14,7 @@
 			>
 				<img src="/icons/facebook.svg" alt="instagram" />
 			</a>
-			<a href="https://twitter.com/deepseatactics" target="_blank" rel="noreferrer">
+			<a href="https://x.com/deepseatactics" target="_blank" rel="noreferrer">
 				<img src="/icons/x.svg" alt="instagram" />
 			</a>
 		</div>

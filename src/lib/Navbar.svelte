@@ -25,6 +25,7 @@
 		</div>
 		<a href="/tasks">Tasks</a>
 		<a href="/sponsor">Sponsor</a>
+		<a href="/interest">Interest</a>
 	</div>
 </nav>
 
