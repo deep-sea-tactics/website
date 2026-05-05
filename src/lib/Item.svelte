@@ -1,7 +1,7 @@
 <script lang="ts">
-	type BrandColor = '#f2f2f2' | '#2C3289';
+	type BrandColor = '#000000' | '#2C3289';
 	export let backgroundColor: BrandColor = '#2C3289';
-	const color = backgroundColor === '#f2f2f2' ? '#2c3289' : '#f2f2f2';
+	const color = backgroundColor === '#000000' ? '#2c3289' : '#000000';
 	export let value: string;
 </script>
 

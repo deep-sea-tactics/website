@@ -40,7 +40,7 @@
 		top: 0px;
 		justify-content: space-between;
 		align-items: center;
-		background-color: #f2f2f2;
+		background-color: #000000;
 		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 		transition: all 0.2s ease-in-out;	
 	}
@@ -53,7 +53,7 @@
 	.dropdown-content {
 		display: none;
 		position: absolute;
-		background-color: #ebebeb;
+		background-color: #000000;
 		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		z-index: 1;
 		padding: 10px;
@@ -82,7 +82,7 @@
 		font-family: 'Bebas Neue';
 		font-style: normal;
 		font-weight: 400;
-		color: #000000;
+		color: #ffffff;
 		text-align: right;
 		text-decoration: none;
 		height: 100%;

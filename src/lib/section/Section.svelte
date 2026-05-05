@@ -1,9 +1,9 @@
 <script lang="ts">
 	export let header: string;
 
-	type BrandColor = '#f2f2f2' | '#2C3289';
-	export let backgroundColor: BrandColor | string = '#f2f2f2';
-	const color = backgroundColor === '#f2f2f2' ? '000000' : '#f2f2f2';
+	type BrandColor = '#000000' | '#2C3289';
+	export let backgroundColor: BrandColor | string = '#000000;
+	const color = backgroundColor === '#000000 ? '00' :f2f2f2'#000000';
 
 	export let src = ""
 	export let alt = header;
